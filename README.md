@@ -88,11 +88,13 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Yongpeng Weng, Min Tian, Ning Wang, "Finite-time model-free adaptive control for MIMO nonlinear systems with adjustable fast convergence domain: Theory and experiment," *IEEE Transactions on Industrial Electronics*, vol. 72, no. 10, pp. 10542-10552, Oct. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/10925368)
 
+1. Qiuxia Zhang, Yongpeng Weng, Ning Wang, "Data‐driven cooperative LOS guidance‐based constrained path‐following of multiple unmanned surface vehicles," *International Journal of Robust and Nonlinear Control*, vol. 36, no. 1, pp. 360-373, Jan. 2026. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.70136)
+
+1. Ning Wang, Wei Jia, Haojun Wu, Yueying Wang, "Event-triggered self-organizing swarm control of distributed unmanned surface vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 3, pp. 3431-3445, Mar. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/10819005)
+
+1. Ning Wang, Yanzheng Chen, Yi Wei, Tingkai Chen, Hamid Reza Karimi, "UP‐GAN: Channel‐spatial attention‐based progressive generative adversarial network for underwater image enhancement," *Journal of Field Robotics*, vol. 41, no. 8, pp. 2597-2614, Dec. 2024. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22378)
+
 1. 
-
-
-
-
 
 
 
