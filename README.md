@@ -29,10 +29,8 @@ Here are some ideas to get you started:
 
 #### 👨‍🎓 About Us
 
-The Marbot Lab is dedicated to solving real-world problems through innovative solutions.
-theoretical innovation and engineering practice in marine robotics, unmanned systems, swarm intelligence, environmental perception, and autonomous decision-making. The team undertakes several key projects funded by the National Natural Science Foundation of China, covering research from fundamental theory to real-world applications, and advancing the frontier of intelligent marine equipment.
-
-I am a Professor in the School of Marine Engineering at Dalian Maritime Univercity, China, specializing in system design, distributed computing, and advanced technologies. With a passion for pushing the boundaries of computer science, I lead a dynamic research team dedicated to solving real-world problems through innovative solutions.
+The _Marbot Lab_ is a leading research institution specializing in marine robototics with embodied intelligence, and is committed to developing theoretical foundations and practical techniques for enhancing the autonomous navigation capabilities and resilient adaptation mechanisms. Our multidisciplinary research team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science to pioneer next-generation intelligent marine vehicles. Our research bridges cutting-edge AI technologies with real-world maritime applications, enabling autonomous marine systems to operate reliably and 
+efficiently in harsh marine environments.
 
 **Current Focus Areas:**
 - 🏗️ **System Architecture & Design**: Designing scalable, robust systems
