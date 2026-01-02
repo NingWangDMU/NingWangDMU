@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 <div align="center">
-  <h2><em>Welcome to Marbot Lab</em></h2>
+  <h2><em>Welcome to CIMV</em></h2>
 </div>
 
 <div align="center">
@@ -29,8 +29,10 @@ Here are some ideas to get you started:
 
 #### 👨‍🎓 About Us
 
-The _Marbot Lab_ is a leading research institution specializing in marine robototics with embodied intelligence, and is committed to developing theoretical foundations and practical techniques for enhancing the autonomous navigation capabilities and resilient adaptation mechanisms. Our multidisciplinary research team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science to pioneer next-generation intelligent marine vehicles. Our research bridges cutting-edge AI technologies with real-world maritime applications, enabling autonomous marine systems to operate reliably and 
-efficiently in harsh marine environments.
+The **Center for Intelligent Marine Vehicles (CIMV)** is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control—addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties.
+
+Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications** and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
+
 
 **Current Focus Areas:**
 - 🏗️ **System Architecture & Design**: Designing scalable, robust systems
