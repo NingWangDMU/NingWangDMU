@@ -27,9 +27,9 @@ Here are some ideas to get you started:
 
 ---
 
-### 👨‍🎓 About Me
+#### 👨‍🎓 <em>About Us</em>
 
-I am a **Professor** in the Department of Computer Science at **[Your University Name]**, specializing in system design, distributed computing, and advanced technologies. With a passion for pushing the boundaries of computer science, I lead a dynamic research team dedicated to solving real-world problems through innovative solutions.
+I am a Professor in the School of Marine Engineering at Dalian Maritime Univercity, China, specializing in system design, distributed computing, and advanced technologies. With a passion for pushing the boundaries of computer science, I lead a dynamic research team dedicated to solving real-world problems through innovative solutions.
 
 **Current Focus Areas:**
 - 🏗️ **System Architecture & Design**: Designing scalable, robust systems
