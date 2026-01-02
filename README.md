@@ -84,6 +84,19 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Chaojiang Liang, Zhihua Guo, Ben Niu, Ning Wang, Ying Zhao, Zhiguang Feng, "Sensor attacks detection and reconstruction for AUVs: An improved zonotopic analysis approach," *IEEE Internet of Things Journal*, vol. 12, no. 19, pp. 40620-40627, Oct. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/11082319)
 
+1. Heda Xu, Xiaojia Xiang, Chao Yan, Zixing Li, Han Zhou, Ning Wang, "Grey wolf optimization enhanced collaborative path planning for UUV swarms," *Ocean Engineering*, vol. 329, p. 121082, Jun. 2025. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825007954)
+
+1. Yongpeng Weng, Min Tian, Ning Wang, "Finite-time model-free adaptive control for MIMO nonlinear systems with adjustable fast convergence domain: Theory and experiment," *IEEE Transactions on Industrial Electronics*, vol. 72, no. 10, pp. 10542-10552, Oct. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/10925368)
+
+
+
+
+
+
+
+
+
+
 
 
 
