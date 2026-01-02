@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 
 ---
 
-#### 👨‍🎓 About Us
+### 👨‍🎓 About Us
 
 The _Center for Intelligent Marine Vehicles (CIMV)_ is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties.
 
@@ -35,7 +35,7 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 
 ---
 
-#### 🔬 Research Interests
+### 🔬 Research Interests
 
 - Adaptability-Critical Marine Robotics
 - Marine Robot Intellligence Development
@@ -44,17 +44,18 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 
 ---
 
-#### 📚 Featured Research Projects
+### 📚 Featured Research Projects
 
-##### 1. Advanced System Architecture Framework
+#### 1. Wave-Adaptive Uncrewed Quadramaran with Independent Suspension
 
-**Status:** Active | **Language:** Python, Java, C++ | **Stars:** ⭐⭐⭐⭐⭐
+**Status:** Active | **Language:** Matlab, Python | **Stars:** ⭐⭐⭐⭐⭐
 
-A comprehensive framework for designing and implementing large-scale distributed systems. This project encompasses architectural patterns, performance monitoring, and automated scaling mechanisms.
+A new wave-adaptive unmanned quadramaran (WUQ) with independent suspension mechanism is structurally designed by virtue of double-wishbone suspension (DWS) and quadruped buoyancy. 
+By inventing DWS-based floating feet, wave-induced forces can be independently absorbed by dampers, thereby significantly attenuating vibrations of the main hull. By dynamics optimization, key parameters of damper springs are numerically determined. Furthermore, the reliable safety of suspension mechanism under various conditions is ensured by finite element analysis on the strength validation. Virtual prototype results show that suspension-damping objective of the main hull can be further promoted by 52.3% after fine optimization on damper springs, while key connecting parts of the suspension mechanism are fully able to afford sufficient stress under diversified conditions. Owe to remarkable stability and safety, the innovated WUQ would definitely fertilize smart SAR efficiency in maritime transportation.
 
-- **Key Features**: Microservices orchestration, auto-scaling, load balancing
-- **Technologies**: Kubernetes, Docker, gRPC, Protocol Buffers
-- **Paper**: ["Scalable Architecture for Modern Cloud Applications"](http://example.com/paper1)
+- **Key Features**: independent suspension mechanism, wave-adaptive damping, rough-sea adaptability
+- **Technologies**: double-wishbone suspension, dynamics optimization, finite element analysis, virtual prototype
+- **Paper**: ["Structural Design of a Wave-Adaptive Unmanned Quadramaran With Independent Suspension"](https://ieeexplore.ieee.org/abstract/document/10478280)
 
 2. Real-time Data Pipeline
 
