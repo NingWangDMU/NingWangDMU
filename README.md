@@ -20,14 +20,17 @@ Here are some ideas to get you started:
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Professor-Marine%20Engineering-blue?style=for-the-badge" alt="Professor Badge">
+  <img src="https://img.shields.io/badge/Professonal-Marine%20Engineering-blue?style=for-the-badge" alt="Professor Badge">
   <img src="https://img.shields.io/badge/Research-Marine%20Robotics-red?style=for-the-badge" alt="Research Badge">
   <img src="https://img.shields.io/badge/Location-Dalian%20China-green?style=for-the-badge" alt="Location Badge">
 </div>
 
 ---
 
-#### 👨‍🎓 <em>About Us</em>
+#### 👨‍🎓 About Us
+
+The Marbot Lab is dedicated to solving real-world problems through innovative solutions.
+theoretical innovation and engineering practice in marine robotics, unmanned systems, swarm intelligence, environmental perception, and autonomous decision-making. The team undertakes several key projects funded by the National Natural Science Foundation of China, covering research from fundamental theory to real-world applications, and advancing the frontier of intelligent marine equipment.
 
 I am a Professor in the School of Marine Engineering at Dalian Maritime Univercity, China, specializing in system design, distributed computing, and advanced technologies. With a passion for pushing the boundaries of computer science, I lead a dynamic research team dedicated to solving real-world problems through innovative solutions.
 
