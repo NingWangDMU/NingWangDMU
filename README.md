@@ -29,31 +29,22 @@ Here are some ideas to get you started:
 
 #### 👨‍🎓 About Us
 
-The **Center for Intelligent Marine Vehicles (CIMV)** is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties.
+The _Center for Intelligent Marine Vehicles (CIMV)_ is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties.
 
 Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications** and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
 
+---
 
-**Current Focus Areas:**
-- 🏗️ **System Architecture & Design**: Designing scalable, robust systems
-- 🌐 **Distributed Computing**: Cloud infrastructure, edge computing, and distributed systems
-- 🤖 **Machine Learning Applications**: ML-driven optimization and intelligent systems
-- 📊 **Data Engineering**: Big data processing and analytics pipelines
+#### 🔬 Research Interests
+
+- Adaptability-Critical Marine Robotics
+- Marine Robot Intellligence Development
+- Embodied Intelligence for Marine Robotics
+- SaaS-Oriented Marine Vehicle Simulator
 
 ---
 
-### 🔬 Research Interests
-
-- Large-scale distributed system architecture
-- Real-time data processing and streaming systems
-- Fault-tolerant system design
-- Performance optimization and scalability
-- Cloud-native application development
-- AI/ML system integration
-
----
-
-### 📚 Featured Research Projects
+#### 📚 Featured Research Projects
 
 #### 1. [Advanced System Architecture Framework](https://github.com/your-username/project-1)
 **Status:** Active | **Language:** Python, Java, C++ | **Stars:** ⭐⭐⭐⭐⭐
