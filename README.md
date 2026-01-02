@@ -70,26 +70,20 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ### 📖 Recent Publications & Resources
 
-| No. | Citation | Source |
-|-----|----------|--------|
-| [1] | Ning Wang, Tingkai Chen, Xiangjin Kong, Yanzheng Chen, Rongfeng Wang, Yongjun Gong, Shiji Song, "Underwater attentional generative adversarial networks for image enhancement," _IEEE Transactions on Human-Machine Systems_, vol. 53, no. 3, pp. 490-500, Jul. 2023. | [Link](https://ieeexplore.ieee.org/abstract/document/10102682/) |
-| [2] | Ning Wang, Hongkun He, Yuli Hou, Bin Han, "Model-free visual servo swarming of manned-unmanned surface vehicles with visibility maintenance and collision avoidance," _IEEE Transactions on Intelligent Transportation Systems_, vol. 2023 Apr. 2023. | [Link](https://ieeexplore.ieee.org/abstract/document/10247104) |
-| [3] | Ning Wang, Yuhang Zhang, Choon Ki Ahn, Qingyang Xu, "Autonomous pilot of unmanned surface vehicles: Bridging path planning and tracking," _IEEE Transactions on Vehicular Technology_, vol. 71, no. 3, pp. 2358-2374, May 2022. | [Link](https://ieeexplore.ieee.org/abstract/document/9656611) |
+1. Yongchun Ma, Yongpeng Weng, Ning Wang, "Finite-time sideslip observer-based model-free fast path-following control of disturbed autonomous surface vehicles with large time-varying sideslip," *Ocean Engineering*, vol. 344, p. 123600, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825032822)
 
-
->
+1. 
 
 
 
-[2] Ning Wang*, Hongkun He, Yuli Hou, Bin Han, "Model-free visual servo swarming of manned-unmanned surface vehicles with visibility maintenance and collision avoidance," IEEE Transactions on Intelligent Transportation Systems, vol. 2023 Apr. 2023.[src]
 
-[3] Ning Wang*, He Li, "Leader-follower formation control of surface vehicles: A fixed-time control approach," ISA Transactions, vol. 124, pp. 356-364, Apr. 2022.(ESI高被引)[src]
-
-[4]Ning Wang*, Yuhang Zhang, Choon Ki Ahn, Qingyang Xu, "Autonomous pilot of unmanned surface vehicles: Bridging path planning and tracking," IEEE Transactions on Vehicular Technology, vol. 71, no. 3, pp. 2358-2374, May 2022.(ESI高被引)[src]
-
-[41]Ning Wang*, Yuanyuan Wang, Meng Joo Er, "Review on deep learning techniques for marine object recognition: Architectures and algorithms," Control Engineering Practice, vol. 118, pp. 104458, Apr. 2022.(ESI高被引)[src]
-[40]Ning Wang*, Hongkun He, "Extreme learning-based monocular visual servo of an unmanned surface vessel," IEEE Transactions on Industrial Informatics, vol. 17, no. 8, pp. 5152-5163, Aug. 2021.[src]
-[39]Ning Wang*, Choon Ki Ahn, "Coordinated trajectory tracking control of a marine aerial-surface heterogeneous system," IEEE/ASME Transactions on Mechatronics, vol. 26, no. 6, pp. 3198-3210, Apr. 2021.[src]
+1. Ning Wang, Tingkai Chen, Xiangjin Kong, Yanzheng Chen, Rongfeng Wang, Yongjun Gong, Shiji Song, "Underwater attentional generative adversarial networks for image enhancement," *IEEE Transactions on Human-Machine Systems*, vol. 53, no. 3, pp. 490-500, Jul. 2023. [Link](https://ieeexplore.ieee.org/abstract/document/10102682/) 
+2. Ning Wang, Hongkun He, Yuli Hou, Bin Han, "Model-free visual servo swarming of manned-unmanned surface vehicles with visibility maintenance and collision avoidance," *IEEE Transactions on Intelligent Transportation Systems*, vol. 2023 Apr. 2023. [Link](https://ieeexplore.ieee.org/abstract/document/10247104) 
+3. Ning Wang, Yuhang Zhang, Choon Ki Ahn, Qingyang Xu, "Autonomous pilot of unmanned surface vehicles: Bridging path planning and tracking," *IEEE Transactions on Vehicular Technology*, vol. 71, no. 3, pp. 2358-2374, May 2022. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/9656611) 
+4. Ning Wang, He Li, "Leader-follower formation control of surface vehicles: A fixed-time control approach," *ISA Transactions*, vol. 124, pp. 356-364, Apr. 2022. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
+5. Ning Wang, Yuanyuan Wang, Meng Joo Er, "Review on deep learning techniques for marine object recognition: Architectures and algorithms," *Control Engineering Practice*, vol. 118, pp. 104458, Apr. 2022. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
+6. Ning Wang, Hongkun He, "Extreme learning-based monocular visual servo of an unmanned surface vessel," *IEEE Transactions on Industrial Informatics*, vol. 17, no. 8, pp. 5152-5163, Aug. 2021. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
+7. Ning Wang, Choon Ki Ahn, "Coordinated trajectory tracking control of a marine aerial-surface heterogeneous system," IEEE/ASME Transactions on Mechatronics, vol. 26, no. 6, pp. 3198-3210, Apr. 2021.[src]
 [38]Ning Wang*, Shun-Feng Su, "Finite-time unknown observer based interactive trajectory tracking control of asymmetric underactuated surface vehicles," IEEE Transactions on Control Systems Technology, vol. 29, no. 2, pp. 794-803, Dec. 2021.(ESI高被引)[src]
 [37]Ning Wang*, Ying Gao, Xuefeng Zhang, "Data-driven performance-prescribed reinforcement learning control of an unmanned surface vehicle," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 12, pp. 5456-5467, Dec. 2021.(ESI高被引)[src]
 [36]Ning Wang*, Ying Gao, Hong Zhao, Choon Ki Ahn, "Reinforcement learning-based optimal tracking control of an unknown unmanned surface vehicle," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 7, pp. 3034-3045, Apr. 2021.(ESI高被引)
