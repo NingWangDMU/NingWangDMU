@@ -82,7 +82,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Ning Wang, Yuli Hou, Chidong Qiu, Zaijin You, "Underactuated navigation actor-critic deep reinforcement learning framework for holistic path planning of uncrewed surface vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 11, pp. 21245-21256, Nov. 2025. [Link](https://ieeexplore.ieee.org/document/11087740)
 
-
+1. Chaojiang Liang, Zhihua Guo, Ben Niu, Ning Wang, Ying Zhao, Zhiguang Feng, "Sensor attacks detection and reconstruction for AUVs: An improved zonotopic analysis approach," *IEEE Internet of Things Journal*, vol. 12, no. 19, pp. 40620-40627, Oct. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/11082319)
 
 
 
