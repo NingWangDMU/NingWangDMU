@@ -88,7 +88,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Yongpeng Weng, Min Tian, Ning Wang, "Finite-time model-free adaptive control for MIMO nonlinear systems with adjustable fast convergence domain: Theory and experiment," *IEEE Transactions on Industrial Electronics*, vol. 72, no. 10, pp. 10542-10552, Oct. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/10925368)
 
-
+1. 
 
 
 
