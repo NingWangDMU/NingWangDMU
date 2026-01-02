@@ -72,8 +72,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Yongchun Ma, Yongpeng Weng, Ning Wang, "Finite-time sideslip observer-based model-free fast path-following control of disturbed autonomous surface vehicles with large time-varying sideslip," *Ocean Engineering*, vol. 344, p. 123600, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825032822)
 
-1. Yazhi Zhao, Ning Wang, Zhengkai Lv, "Review on hybrid power system modeling and optimization of hydrogen-electric ships," *Ocean Engineering*, vol. 343, p. 123456, Jan. 2026. [Link]([https://www.sciencedirect.com/science/article/abs/pii/S0029801825032822](https://www.sciencedirect.com/science/article/abs/pii/S0029801825031385))
-
+1. Yazhi Zhao, Ning Wang, Zhengkai Lv, "Review on hybrid power system modeling and optimization of hydrogen-electric ships," *Ocean Engineering*, vol. 343, p. 123456, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825031385)
 
 
 
