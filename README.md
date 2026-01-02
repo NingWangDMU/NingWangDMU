@@ -46,7 +46,8 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 
 #### 📚 Featured Research Projects
 
-#### 1. [Advanced System Architecture Framework](https://github.com/your-username/project-1)
+1. Advanced System Architecture Framework
+
 **Status:** Active | **Language:** Python, Java, C++ | **Stars:** ⭐⭐⭐⭐⭐
 
 A comprehensive framework for designing and implementing large-scale distributed systems. This project encompasses architectural patterns, performance monitoring, and automated scaling mechanisms.
@@ -55,7 +56,8 @@ A comprehensive framework for designing and implementing large-scale distributed
 - **Technologies**: Kubernetes, Docker, gRPC, Protocol Buffers
 - **Paper**: ["Scalable Architecture for Modern Cloud Applications"](http://example.com/paper1)
 
-#### 2. [Real-time Data Pipeline](https://github.com/your-username/project-2)
+2. Real-time Data Pipeline
+
 **Status:** Active | **Language:** Scala, Python | **Stars:** ⭐⭐⭐⭐
 
 End-to-end solution for ingesting, processing, and analyzing streaming data at scale.
@@ -75,7 +77,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ---
 
-### 📖 Recent Publications & Resources
+#### 📖 Recent Publications & Resources
 
 #### Journal Papers
 | Year | Title | Venue | Link |
