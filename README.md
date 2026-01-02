@@ -51,23 +51,13 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 **Status:** Active | **Language:** Matlab, Python | **Stars:** ⭐⭐⭐⭐⭐
 
 A new wave-adaptive unmanned quadramaran (WUQ) with independent suspension mechanism is structurally designed by virtue of double-wishbone suspension (DWS) and quadruped buoyancy. 
-By inventing DWS-based floating feet, wave-induced forces can be independently absorbed by dampers, thereby significantly attenuating vibrations of the main hull. By dynamics optimization, key parameters of damper springs are numerically determined. Furthermore, the reliable safety of suspension mechanism under various conditions is ensured by finite element analysis on the strength validation. Virtual prototype results show that suspension-damping objective of the main hull can be further promoted by 52.3% after fine optimization on damper springs, while key connecting parts of the suspension mechanism are fully able to afford sufficient stress under diversified conditions. Owe to remarkable stability and safety, the innovated WUQ would definitely fertilize smart SAR efficiency in maritime transportation.
 
 - **Key Features**: independent suspension mechanism, wave-adaptive damping, rough-sea adaptability
 - **Technologies**: double-wishbone suspension, dynamics optimization, finite element analysis, virtual prototype
 - **Paper**: ["Structural Design of a Wave-Adaptive Unmanned Quadramaran With Independent Suspension"](https://ieeexplore.ieee.org/abstract/document/10478280)
 
-2. Real-time Data Pipeline
+#### 2. [Machine Learning Operations Platform](https://github.com/your-username/project-3)
 
-**Status:** Active | **Language:** Scala, Python | **Stars:** ⭐⭐⭐⭐
-
-End-to-end solution for ingesting, processing, and analyzing streaming data at scale.
-
-- **Key Features**: Stream processing, fault tolerance, exactly-once semantics
-- **Technologies**: Apache Kafka, Apache Spark, Apache Flink
-- **Paper**: ["High-Throughput Stream Processing Architecture"](http://example.com/paper2)
-
-#### 3. [Machine Learning Operations Platform](https://github.com/your-username/project-3)
 **Status:** Maintained | **Language:** Python, Go | **Stars:** ⭐⭐⭐
 
 MLOps platform for managing ML model lifecycle from development to production.
