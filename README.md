@@ -74,7 +74,14 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Yazhi Zhao, Ning Wang, Zhengkai Lv, "Review on hybrid power system modeling and optimization of hydrogen-electric ships," *Ocean Engineering*, vol. 343, p. 123456, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825031385)
 
-1. Ning Wang, Haiyan Zhao, Tingkai Chen, "DR-LIOM: Direct registration LiDAR-inertial odometry and mapping for uncrewed surface vehicles in a harbor," *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 11, pp. 490-500, Nov. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/11146480)
+1. Ning Wang, Haiyan Zhao, Tingkai Chen, "DR-LIOM: Direct registration LiDAR-inertial odometry and mapping for uncrewed surface vehicles in a harbor," *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 11, pp. 19197-19213, Nov. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/11146480)
+
+1. Qiuxia Zhang, Yongpeng Weng, Ning Wang, "Data-driven coordinated path-following of multiple marine surface vehicles with input saturations," *ISA Transactions*, vol. 167, pp. 134-143, Dec. 2025. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057825004094)
+
+1. Qinjin Zhang, Liming Song, Yji Zeng, Yancheng Liu, Siyuan Liu, Ning Wang, "Real-time power optimization strategy for fuel cell ships based on improved genetic simulated annealing algorithm," *Electric Power Systems Research*, vol. 245, p. 111647, Aug. 2025. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0378779625002391)
+
+1. Ning Wang, Yuli Hou, Chidong Qiu, Zaijin You, "Underactuated navigation actor-critic deep reinforcement learning framework for holistic path planning of uncrewed surface vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 11, pp. 21245-21256, Nov. 2025. [Link](https://ieeexplore.ieee.org/document/11087740)
+
 
 
 
