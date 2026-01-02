@@ -46,7 +46,7 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 
 #### 📚 Featured Research Projects
 
-1. Advanced System Architecture Framework
+##### 1. Advanced System Architecture Framework
 
 **Status:** Active | **Language:** Python, Java, C++ | **Stars:** ⭐⭐⭐⭐⭐
 
