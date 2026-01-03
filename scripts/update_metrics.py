@@ -70,23 +70,70 @@ class PublicationMetricsUpdater:
             
             # 限制处理数量以避免超时（Google Scholar可能返回大量出版物）
             max_pubs = 200
+            processed_count = 0
+            skipped_count = 0
+            
             for i, pub in enumerate(publications[:max_pubs]):
                 try:
                     pub_filled = scholarly.fill(pub)
-                    title = pub_filled.get('bib', {}).get('title', '').lower()
-                    venue = pub_filled.get('bib', {}).get('venue', '').lower()
+                    bib = pub_filled.get('bib', {})
+                    title = bib.get('title', '').lower()
+                    venue = bib.get('venue', '').lower()
+                    pub_type = bib.get('pub_type', '').lower()
                     
-                    # 简单分类逻辑（可根据实际情况调整）
-                    if 'journal' in venue or 'transaction' in venue or 'ieee' in venue:
+                    # 改进的分类逻辑
+                    # 检查是否为期刊论文
+                    journal_keywords = ['journal', 'transaction', 'ieee', 'ieee transactions', 
+                                      'ieee trans', 'springer', 'elsevier', 'acm transactions',
+                                      'siam', 'nature', 'science', 'cell', 'plos', 'biosystems',
+                                      'ocean engineering', 'automatica', 'control', 'robotics']
+                    
+                    # 检查是否为会议论文
+                    conf_keywords = ['conference', 'proceeding', 'symposium', 'workshop', 
+                                    'icml', 'neurips', 'iccv', 'cvpr', 'aaai', 'ijcai',
+                                    'ieee conference', 'acm conference', 'ifac']
+                    
+                    # 检查是否为书籍/章节
+                    book_keywords = ['book', 'chapter', 'monograph', 'handbook', 'encyclopedia']
+                    
+                    # 分类逻辑：优先检查pub_type，然后检查venue和title
+                    classified = False
+                    
+                    if any(keyword in venue for keyword in journal_keywords) or \
+                       any(keyword in pub_type for keyword in ['article', 'journal']):
                         int_journal_count += 1
-                    elif 'conference' in venue or 'proceeding' in venue:
+                        classified = True
+                    elif any(keyword in venue for keyword in conf_keywords) or \
+                         any(keyword in pub_type for keyword in ['conference', 'proceeding']):
                         int_conf_count += 1
-                    elif 'book' in venue or 'chapter' in title:
+                        classified = True
+                    elif any(keyword in venue for keyword in book_keywords) or \
+                         any(keyword in title for keyword in book_keywords) or \
+                         any(keyword in pub_type for keyword in ['book', 'chapter']):
                         book_count += 1
+                        classified = True
+                    
+                    if not classified and venue:
+                        # 如果无法分类但有venue信息，尝试根据venue长度和格式判断
+                        # 期刊通常有较长的venue名称，会议通常包含年份
+                        if len(venue) > 20 and not any(char.isdigit() for char in venue[-4:]):
+                            # 可能是期刊
+                            int_journal_count += 1
+                        elif any(char.isdigit() for char in venue[-4:]):
+                            # 可能包含年份，更可能是会议
+                            int_conf_count += 1
+                    
+                    processed_count += 1
+                    
                 except Exception as e:
                     # 如果单个出版物处理失败，继续处理下一个
-                    print(f"  ⚠ Warning: Could not process publication {i+1}: {e}")
+                    skipped_count += 1
+                    if skipped_count <= 5:  # 只显示前5个错误，避免日志过长
+                        print(f"  ⚠ Warning: Could not process publication {i+1}: {e}")
                     continue
+            
+            print(f"  Processed {processed_count} publications, skipped {skipped_count}")
+            print(f"  Classification results: Journals={int_journal_count}, Conferences={int_conf_count}, Books={book_count}")
             
             # 如果成功获取到数据，使用这些值
             if total_citations > 0 or h_index > 0:
@@ -118,21 +165,30 @@ class PublicationMetricsUpdater:
     
     def _load_from_env(self, keys):
         """从环境变量加载指定的指标"""
+        loaded_any = False
         for key in keys:
             value = os.getenv(key)
             if value:
                 try:
                     # 尝试转换为整数
                     self.metrics[key] = int(value)
+                    loaded_any = True
                 except ValueError:
                     # 如果无法转换为整数，使用原始值
                     self.metrics[key] = value
+                    loaded_any = True
                 print(f"  ✓ Loaded {key} from environment: {self.metrics[key]}")
             else:
                 # 如果环境变量不存在，保持默认值或设置为 'N/A'
                 if self.metrics[key] == 0:
-                    self.metrics[key] = 'N/A'
+                    # 对于计数类指标，如果环境变量未设置且当前为0，保持0（而不是N/A）
+                    # 这样用户可以知道需要设置这些值
+                    pass
                 print(f"  ⚠ {key} not found in environment, using: {self.metrics[key]}")
+        
+        if not loaded_any:
+            print(f"  ⚠ Warning: No environment variables found for {', '.join(keys)}")
+            print(f"     Please set these in GitHub Secrets if you want to use manual values")
     
     def get_cnki_metrics(self, author_id=None):
         """
