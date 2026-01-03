@@ -2,44 +2,134 @@
 
 本指南将带您完成从代码提交到配置运行的完整流程。
 
+## ⚡ 快速回答：是否需要先 Fetch 和 Push？
+
+**简短回答**：
+- ✅ **是的，建议先 Fetch**：在提交本地更改之前，先获取远程仓库的最新更改，避免冲突
+- ✅ **必须 Push**：提交本地更改后，必须推送到GitHub，否则GitHub上不会有这些文件
+
+**详细说明**：
+1. **Fetch（获取）**：从GitHub下载最新更改，但不合并。建议在每次提交前先执行，确保本地和远程同步
+2. **Pull（拉取）**：如果Fetch后发现远程有更新，需要Pull来合并这些更新
+3. **Commit（提交）**：将本地更改保存到本地Git仓库
+4. **Push（推送）**：将本地提交推送到GitHub，使更改在GitHub上可见
+
+**操作顺序**：
+```
+Fetch → (如果有远程更新) Pull → Commit → Push
+```
+
 ---
 
-## 📋 第一步：提交代码到GitHub（如果还没有）
+## 📋 第一步：在GitHub Desktop中同步代码
 
-### 1.1 检查当前状态
+### 1.1 打开GitHub Desktop并检查状态
 
-在GitHub Desktop中：
+1. **打开GitHub Desktop应用程序**
+2. **确认当前仓库**：
+   - 在顶部确认显示的是 `NingWangDMU` 仓库
+   - 如果显示其他仓库，点击顶部仓库名称，选择 `NingWangDMU`
 
-1. **打开GitHub Desktop**
-2. **检查当前仓库状态**：
-   - 查看左侧是否有未提交的更改（显示为数字）
-   - 如果有更改，需要先提交
+3. **检查本地更改状态**：
+   - 查看左侧面板，如果有未提交的更改，会显示数字（如 "5 changed files"）
+   - 如果有数字，说明有本地更改需要提交
 
-### 1.2 提交更改（如果有未提交的文件）
+### 1.2 先进行 Fetch（获取远程更新）
 
-1. **在GitHub Desktop中**：
-   - 查看左侧的更改列表
-   - 确认所有新文件都已勾选（包括README.md、scripts文件夹、.github文件夹等）
-   - 在底部输入提交信息，例如：
+**重要**：在提交本地更改之前，建议先获取远程仓库的最新更改，避免冲突。
+
+1. **点击顶部菜单栏的 Repository（仓库）**
+2. **选择 Fetch origin（获取远程更新）**
+   - 或者直接按快捷键 `Ctrl+Shift+F`（Windows）
+   - 这会从GitHub下载最新的更改，但不会合并到本地
+
+3. **检查是否有远程更改**：
+   - 如果Fetch后显示 "This branch is X commits behind origin/main"（此分支落后X个提交）
+   - 说明远程有更新，需要先 Pull（拉取）
+   - 点击 **Pull origin** 按钮，将远程更改合并到本地
+
+### 1.3 提交本地更改（如果有未提交的文件）
+
+如果左侧显示有未提交的更改：
+
+1. **查看更改列表**：
+   - 在左侧面板查看所有更改的文件
+   - 确认以下文件都在列表中：
+     - ✅ `README.md`
+     - ✅ `scripts/update_metrics.py`
+     - ✅ `scripts/update_metrics_simple.py`
+     - ✅ `scripts/config.example.json`
+     - ✅ `scripts/README.md`
+     - ✅ `.github/workflows/update-publication-metrics.yml`
+     - ✅ `requirements.txt`
+     - ✅ `.gitignore`（如果存在）
+     - ✅ 各种配置文档（`SETUP_METRICS.md`、`YOUR_CONFIGURATION.md` 等）
+
+2. **选择要提交的文件**：
+   - 默认情况下，所有文件都应该被勾选
+   - 如果某个文件未勾选，点击复选框选中它
+   - **注意**：不要勾选 `scripts/config.json`（如果存在），这个文件应该被忽略
+
+3. **输入提交信息**：
+   - 在底部左侧的文本框中输入提交信息，例如：
      ```
      添加出版物指标自动更新系统
      ```
-   - 点击 **Commit to main**（或您的主分支名称）
+   - 或者更详细的：
+     ```
+     添加出版物指标自动更新系统
+     - 添加GitHub Actions工作流
+     - 添加Python脚本用于自动获取指标
+     - 更新README.md添加指标表格
+     ```
+
+4. **提交更改**：
+   - 点击底部右侧的 **Commit to main** 按钮（或您的主分支名称）
+   - 等待提交完成（通常几秒钟）
+
+### 1.4 推送到GitHub（Push）
+
+提交完成后，需要将更改推送到GitHub：
+
+1. **检查推送状态**：
+   - 提交后，顶部会显示 "X commits ahead of origin/main"（领先X个提交）
+   - 右侧会显示 **Push origin** 按钮
 
 2. **推送到GitHub**：
    - 点击右上角的 **Push origin** 按钮
-   - 等待推送完成
+   - 或者点击顶部菜单栏的 **Repository** > **Push**
+   - 等待推送完成（通常需要几秒到几十秒，取决于文件大小）
 
-### 1.3 验证代码已上传
+3. **确认推送成功**：
+   - 推送完成后，顶部应该显示 "This branch is up to date with origin/main"（此分支与远程同步）
+   - 不再显示 "X commits ahead" 的提示
 
-1. **在浏览器中打开您的GitHub仓库**
+### 1.5 验证代码已上传到GitHub
+
+推送完成后，验证所有文件都已成功上传：
+
+1. **在浏览器中打开您的GitHub仓库**：
+   - 访问 `https://github.com/NingWangDMU/NingWangDMU`（或您的仓库地址）
+
 2. **检查以下文件是否存在**：
    - ✅ `README.md`（包含指标表格）
    - ✅ `scripts/update_metrics.py`
    - ✅ `scripts/update_metrics_simple.py`
+   - ✅ `scripts/config.example.json`
+   - ✅ `scripts/README.md`
    - ✅ `.github/workflows/update-publication-metrics.yml`
    - ✅ `requirements.txt`
-   - ✅ `.gitignore`
+   - ✅ `.gitignore`（如果存在）
+
+3. **验证文件内容**：
+   - 点击 `README.md`，滚动到 "Publication Metrics" 部分
+   - 确认表格存在且显示 "Loading..." 占位符
+   - 点击 `.github/workflows/update-publication-metrics.yml`，确认工作流文件存在
+
+4. **如果文件缺失**：
+   - 返回GitHub Desktop，检查是否有未提交的更改
+   - 如果有，重复步骤1.3和1.4
+   - 如果GitHub Desktop显示 "Nothing to commit"，但文件仍然缺失，可能需要刷新浏览器页面
 
 ---
 
@@ -147,10 +237,14 @@
 ## 📝 完整操作清单
 
 ### 代码提交阶段
-- [ ] 在GitHub Desktop中检查未提交的更改
-- [ ] 提交所有更改（如果有）
-- [ ] 推送到GitHub
-- [ ] 验证所有文件已上传
+- [ ] 打开GitHub Desktop并确认仓库
+- [ ] 执行 Fetch origin（获取远程更新）
+- [ ] 如果有远程更新，执行 Pull origin（拉取并合并）
+- [ ] 检查本地未提交的更改
+- [ ] 选择所有需要提交的文件
+- [ ] 输入提交信息并提交（Commit）
+- [ ] 推送到GitHub（Push origin）
+- [ ] 验证所有文件已成功上传到GitHub
 
 ### 配置阶段
 - [ ] 进入GitHub仓库 Settings
