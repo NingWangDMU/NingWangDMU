@@ -72,6 +72,10 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 - **Selected Journal Papers**
 
+1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
+
+1. Jianchuan Yin , Guokang Xu , Ning Wang , Nini Wang , Zeguo Zhang, "A survey of small sea-surface target detection for maritime search and rescue," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 211-231, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11295973)
+
 1. Yongchun Ma, Yongpeng Weng, Ning Wang, "Finite-time sideslip observer-based model-free fast path-following control of disturbed autonomous surface vehicles with large time-varying sideslip," *Ocean Engineering*, vol. 344, p. 123600, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825032822)
 
 1. Yazhi Zhao, Ning Wang, Zhengkai Lv, "Review on hybrid power system modeling and optimization of hydrogen-electric ships," *Ocean Engineering*, vol. 343, p. 123456, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825031385)
