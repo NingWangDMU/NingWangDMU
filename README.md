@@ -251,9 +251,19 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Ning Wang, Meng Joo Er, Min Han, "Generalized single-hidden layer feedforward networks for regression problems," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 26, no. 6, pp. 1161-1176, Jun. 2015. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/6856201)
 
+1. Ning Wang, Meng Joo Er, Min Han, "Large tanker motion model identification using generalized ellipsoidal basis function-based fuzzy neural networks," *IEEE Transactions on Cybernetics*, vol. 45, no. 12, pp. 2732-2743, Dec. 2015. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7001036)
 
+1. Ning Wang, Meng Joo Er, Min Han, "Dynamic tanker steering control using generalized-ellipsoidal-basis-function-based fuzzy neural networks," *IEEE Transactions on Fuzzy Systems*, vol. 23, no. 5, pp. 1414-1427, Oct. 2015. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/6918478)
 
+1. Ning Wang, Meng Joo Er, Min Han, "Parsimonious extreme learning machine using recursive orthogonal least squares," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 25, no. 10, pp. 1828-1841, Oct. 2014. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/6704311)
 
+1. Ning Wang, "A novel analytical framework for dynamic quaternion ship domains," *Journal of Navigation*, vol. 66, no. 2, pp. 265-281, Mar. 2013. **(Highly Cited Paper)** [Link](https://www.cambridge.org/core/journals/journal-of-navigation/article/novel-analytical-framework-for-dynamic-quaternion-ship-domains/89248F37A9A214CEE198081ABE0EA9F6)
+
+1. Ning Wang, "An intelligent spatial collision risk based on the quaternion ship domain," *Journal of Navigation*, vol. 63, no. 4, pp. 733-749, Oct. 2010. **(Highly Cited Paper)** [Link](https://www.cambridge.org/core/journals/journal-of-navigation/article/abs/an-intelligent-spatial-collision-risk-based-on-the-quaternion-ship-domain/D05DA36B538161D60A67F1A8E9D89D83)
+
+1. Ning Wang, Xianyao Meng, Qingyang Xu, Zuwen Wang, "A unified analytical framework for ship domains," *Journal of Navigation*, vol. 62, no. 4, pp. 643-655, Oct. 2009. **(Highly Cited Paper)** [Link](https://www.cambridge.org/core/journals/journal-of-navigation/article/abs/unified-analytical-framework-for-ship-domains/6CCC5580667783753B69E2DCCD8214F1)
+
+1. Ning Wang, Meng Joo Er, Xianyao Meng, "A fast and accurate online self-organizing scheme for parsimonious fuzzy neural networks," *Neurocomputing*, vol. 72, no. 16-18, pp. 3818-3829, Oct. 2009. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231209001714)
 
 
 #### 2026
