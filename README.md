@@ -74,14 +74,14 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 | Category | Count | Data Source | Last Updated |
 |----------|-------|-------------|--------------|
-| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->400<!-- /INT_JOURNAL_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE --> |
-| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->60<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE --> |
-| **International Conference Papers** | <!-- INT_CONF_COUNT -->200<!-- /INT_CONF_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE --> |
-| **Books/Chapters** | <!-- BOOK_COUNT -->10<!-- /BOOK_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE --> |
-| **Total Citations** | <!-- TOTAL_CITATIONS -->15000<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE --> |
-| **H-index** | <!-- H_INDEX -->70<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE --> |
+| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->400<!-- /INT_JOURNAL_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
+| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->60<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
+| **International Conference Papers** | <!-- INT_CONF_COUNT -->200<!-- /INT_CONF_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
+| **Books/Chapters** | <!-- BOOK_COUNT -->1<!-- /BOOK_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
+| **Total Citations** | <!-- TOTAL_CITATIONS -->13668<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
+| **H-index** | <!-- H_INDEX -->68<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
 
-*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-03 18:40:49 UTC<!-- /LAST_UPDATE -->*
+*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE -->*
 
 ---
 
