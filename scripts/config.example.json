@@ -1,0 +1,21 @@
+{
+  "google_scholar": {
+    "author_id": "YOUR_GOOGLE_SCHOLAR_ID",
+    "note": "从Google Scholar个人主页URL中获取，例如：https://scholar.google.com/citations?user=YOUR_ID"
+  },
+  "cnki": {
+    "author_id": "YOUR_CNKI_AUTHOR_ID",
+    "api_key": "YOUR_CNKI_API_KEY",
+    "note": "CNKI API需要申请，或使用爬虫方式获取（需遵守网站使用条款）"
+  },
+  "manual_metrics": {
+    "int_journal_count": 0,
+    "cn_journal_count": 0,
+    "int_conf_count": 0,
+    "book_count": 0,
+    "total_citations": 0,
+    "h_index": 0,
+    "note": "如果无法自动获取，可以手动设置这些值"
+  }
+}
+
