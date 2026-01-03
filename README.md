@@ -74,14 +74,14 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 | Category | Count | Data Source | Last Updated |
 |----------|-------|-------------|--------------|
-| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->0<!-- /INT_JOURNAL_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE --> |
-| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->51<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE --> |
-| **International Conference Papers** | <!-- INT_CONF_COUNT -->0<!-- /INT_CONF_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE --> |
-| **Books/Chapters** | <!-- BOOK_COUNT -->0<!-- /BOOK_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE --> |
-| **Total Citations** | <!-- TOTAL_CITATIONS -->13668<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE --> |
-| **H-index** | <!-- H_INDEX -->68<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE --> |
+| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->0<!-- /INT_JOURNAL_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE --> |
+| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->51<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE --> |
+| **International Conference Papers** | <!-- INT_CONF_COUNT -->0<!-- /INT_CONF_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE --> |
+| **Books/Chapters** | <!-- BOOK_COUNT -->0<!-- /BOOK_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE --> |
+| **Total Citations** | <!-- TOTAL_CITATIONS -->13668<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE --> |
+| **H-index** | <!-- H_INDEX -->68<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE --> |
 
-*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-03 17:40:29 UTC<!-- /LAST_UPDATE -->*
+*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-03 17:57:00 UTC<!-- /LAST_UPDATE -->*
 
 ---
 
