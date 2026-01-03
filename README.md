@@ -70,7 +70,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ### 📖 Recent Publications & Resources
 
-- **Selected Journal Papers**
+- **Selected International Journal Papers**
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
 
@@ -81,6 +81,8 @@ MLOps platform for managing ML model lifecycle from development to production.
 1. Yazhi Zhao, Ning Wang, Zhengkai Lv, "Review on hybrid power system modeling and optimization of hydrogen-electric ships," *Ocean Engineering*, vol. 343, p. 123456, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825031385)
 
 1. Ning Wang, Haiyan Zhao, Tingkai Chen, "DR-LIOM: Direct registration LiDAR-inertial odometry and mapping for uncrewed surface vehicles in a harbor," *IEEE Transactions on Intelligent Transportation Systems*, vol. 26, no. 11, pp. 19197-19213, Nov. 2025. [Link](https://ieeexplore.ieee.org/abstract/document/11146480)
+
+1. Yuji Zeng, Qinjin Zhang, Herbert Ho Ching Iu, Xiaoyan Chen, Yancheng Liu, Haohao Guo, Xinan Zhang, Ning Wang, Siyuan Liu, "Integrated power management strategy for multisource hybrid power systems in fuel cell vessels: Focusing on dynamic lifetime extension and optimal hydrogen consumption," *IEEE Transactions on Power Electronics*, vol. 40, no. 6, pp. 8792-8811, Jun. 2025. [Link](https://ieeexplore.ieee.org/document/10884947)
 
 1. Qiuxia Zhang, Yongpeng Weng, Ning Wang, "Data-driven coordinated path-following of multiple marine surface vehicles with input saturations," *ISA Transactions*, vol. 167, pp. 134-143, Dec. 2025. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057825004094)
 
@@ -268,6 +270,43 @@ MLOps platform for managing ML model lifecycle from development to production.
 1. Ning Wang, Xianyao Meng, Qingyang Xu, Zuwen Wang, "A unified analytical framework for ship domains," *Journal of Navigation*, vol. 62, no. 4, pp. 643-655, Oct. 2009. **(Highly Cited Paper)** [Link](https://www.cambridge.org/core/journals/journal-of-navigation/article/abs/unified-analytical-framework-for-ship-domains/6CCC5580667783753B69E2DCCD8214F1)
 
 1. Ning Wang, Meng Joo Er, Xianyao Meng, "A fast and accurate online self-organizing scheme for parsimonious fuzzy neural networks," *Neurocomputing*, vol. 72, no. 16-18, pp. 3818-3829, Oct. 2009. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231209001714)
+
+
+- **Selected Chinese Journal Papers**
+
+1. 王宁, 贾薇, 吴浩峻, 欠驱动无人船路径跟踪: 一种有限时间正切漂角视线制导方法, 控制与决策, 2025, 40(1): 187-195. [Link](https://d.wanfangdata.com.cn/periodical/kzyjc202501022)
+
+1. 王宁, 宋炳松, 高田宇, 考虑寿命衰减的燃料电池船舶自适应等效氢耗最小策略, 中国舰船研究, 2025, 20(4): 222-232. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyNTA0MDIzGgg0aXR3emk4OQ%3D%3D)
+
+1. 侯玉立, 王宁, 邱赤东, 翁永鹏, 无人艇集群路径规划研究综述: 深度强化学习, 水下无人系统学报, 2025, 33(2): 194-203. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRINeWxqczIwMjUwMjAwMhoIb3E1MmVjYTk%3D)
+
+1. 王宁, 张雪峰, 李洁龙, 张富宇, 魏一, 面向港口环境精细感知的无人船多传感器融合SLAM系统, 船舶工程, 2024, 46(7): 81-89. [Link](https://d.wanfangdata.com.cn/periodical/cbgc202407013)
+
+1. 何红坤, 王宁, 张富宇, 韩冰, 水面无人艇单目视觉伺服自主控制研究综述, 中国舰船研究, 2024, 19(1): 15-28. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyNDAxMDAzGghvcTUyZWNhOQ%3D%3D)
+
+1. 王宁, 吴伟, 王元元, 孙赫男, 多特征融合的无人艇视觉目标长时相关鲁棒跟踪, 中国舰船研究, 2024, 19(1): 62-74. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyNDAxMDA3GghvcTUyZWNhOQ%3D%3D)
+
+1. 王宁, 武慧慧, 张宇航, 考虑操纵约束的无人艇海域全覆盖路径规划, 中国舰船研究, 2024, 19(6): 210-218. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyNDA2MDIyGghvcTUyZWNhOQ%3D%3D)
+
+1. 王宁, 宋佳麟, 杨奇麟, 四体无人艇的片体布局优化, 大连海事大学学报, 2024, 50(4): 1-11. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIRZGxoc2R4eGIyMDI0MDQwMDEaCGhpNXIxeHVm)
+
+1. 王宁, 高颖, 王仁慧, 状态测量不确定和动力学未知的无人艇固定时间容错控制, 自动化学报, 2023, 49(5): 1050-1061. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIOemRoeGIyMDIzMDUwMTEaCG9xNTJlY2E5)
+
+1. 王宁, 王仁慧, 鲁挺, 推进器饱和约束的水面无人艇固定时间精准跟踪控制, 控制理论与应用, 2023, 40(1): 55-64. [Link](https://d.wanfangdata.com.cn/periodical/kzllyyy202301006)
+
+1. 贾薇, 王宁, 张富宇, 张雪峰, 李洁龙, 吴浩峻, 孙赫男, 基于多传感器融合SLAM的无人船靠泊技术, 大连海事大学学报, 2023, 49(4): 65-75. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIRZGxoc2R4eGIyMDIzMDQwMDgaCDVvaWt1Yjdx)
+
+1. 何红坤, 王宁, 欠驱动无人船单目视觉伺服镇定控制, 中国舰船研究, 2022, 17(5): 166-174. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyMjA1MDE0GghvcTUyZWNhOQ%3D%3D)
+
+1. 王宁, 吕帅林, 基于有限时间扰动观测器的无人水面艇精确航迹跟踪控制, 控制与决策, 2019, 34(11): 2491-2497. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIOa3p5amMyMDE5MTEwMjkaCDVvaWt1Yjdx)
+
+1. 王宁, 王永, 基于模糊不确定观测器的四旋翼飞行器自适应动态面轨迹跟踪控制, 自动化学报, 2018, 44(4): 685-695. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIOemRoeGIyMDE4MDQwMTAaCGhpNXIxeHVm)
+
+1. 王宁, 王永, 余明裕, 四旋翼飞行器自适应动态面轨迹跟踪控制, 控制理论与应用, 2017, 34(9): 1185-1194. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIQa3psbHl5eTIwMTcwOTAwOBoIaGk1cjF4dWY%3D)
+
+
+
+
 
 
 #### 2026
