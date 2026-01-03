@@ -94,31 +94,114 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Ning Wang, Yanzheng Chen, Yi Wei, Tingkai Chen, Hamid Reza Karimi, "UP‐GAN: Channel‐spatial attention‐based progressive generative adversarial network for underwater image enhancement," *Journal of Field Robotics*, vol. 41, no. 8, pp. 2597-2614, Dec. 2024. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22378)
 
-1. 
+1. Ning Wang, Jialin Song, "Lightweight optimization on suspension mechanism of a wave-adaptive unmanned quadramaran," *Ocean Engineering*, vol. 310, p. 118545, Oct. 2024. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801824018833)
 
+1. Xiang Liu, Huaicheng Yan, Weixiang Zhou, Ning Wang, Yueying Wang, "Event-triggered optimal tracking control for underactuated surface vessels via neural reinforcement learning," *IEEE Transactions on Industrial Informatics*, vol. 20, no. 11, pp. 12837-12847, Nov. 2024. [Link](https://ieeexplore.ieee.org/abstract/document/10604933)
 
+1. Ning Wang, Yuanyuan Wang, Yuan Feng, Yi Wei, "AodeMar: Attention-aware occlusion detection of vessels for maritime autonomous surface ships," *IEEE Transactions on Intelligent Transportation Systems*, vol. 25, no. 10, pp. 13584-13597, Oct. 2024. [Link](https://ieeexplore.ieee.org/abstract/document/10537110)
 
+1. Ning Wang, Yuanyuan Wang, Yuan Feng, Yi Wei, "MDD-ShipNet: Math-data integrated defogging for fog-occlusion ship detection," *IEEE Transactions on Intelligent Transportation Systems*, vol. 25, no. 10, pp. 15040-15052, Oct. 2024. [Link](https://ieeexplore.ieee.org/abstract/document/10527397)
 
+1. Chunlai Yu, Junkang Zhu, Yuanting Hu, Hao Zhu, Ning Wang, Haohao Guo, Qinjin Zhang, Siyuan Liu, "Prescribed-time observer-based sideslip compensation in USV line-of-sight guidance," *Ocean Engineering*, vol. 298, p. 117177, Apr. 2024. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801824005146)
 
+1. Tingkai Chen, Ning Wang, "Shuffled grouping cross-channel attention-based bilateral-filter-interpolation deformable convnet with applications to benthonic organism detection," *IEEE Transactions on Artificial Intelligence*, vol. 5, no. 9, pp. 4506-4518, Oct. 2024. [Link](https://ieeexplore.ieee.org/abstract/document/10494116)
 
+1. Hongkun He, Ning Wang, Dazhi Huang, Bing Han, "Active vision-based finite-time trajectory-tracking control of an unmanned surface vehicle without direct position measurements," *IEEE Transactions on Intelligent Transportation Systems*, vol. 25, no. 9, pp. 12151-12162, Sep. 2024. [Link](https://ieeexplore.ieee.org/abstract/document/10443713)
+
+1. Ning Wang, Hongkun He, Yuli Hou, Bin Han, "Model-free visual servo swarming of manned-unmanned surface vehicles with visibility maintenance and collision avoidance," *IEEE Transactions on Intelligent Transportation Systems*, vol. 25, no. 1, pp. 697-709, Jan. 2024. [Link](https://ieeexplore.ieee.org/abstract/document/10247104) 
+
+1. Ning Wang, Yuanyuan Wang, Yi Wei, Bing Han, Yuan Feng, "Marine vessel detection dataset and benchmark for unmanned surface vehicles," *Applied Ocean Research*, vol. 142, p. 103835, Jan. 2024. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0141118723003760)
+
+1. Pengli Zhu, Yancheng Liu, Minyi Xu, Xianping Fu, Ning Wang, Siyuan Liu, "Unsupervised multiple representation disentanglement framework for improved underwater visual perception," *Journal of Oceanic Engineering*, vol. 49, no. 1, pp. 48-65, Jan. 2024. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801823022746)
+
+1. Ning Wang, Yongjin Liu, Jiaolong Liu, Wei Jia, Chengxiang Zhang, "Reinforcement learning swarm of self-organizing unmanned surface vehicles with unavailable dynamics," *Ocean Engineering*, vol. 289, p. 116313, Dec. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801823026975)
+
+1. Ning Wang, Huihui Wu, Yuhang Zhang, Jialin Song, Yejin Lin, Lizhu Hao, "Self-organizing data-driven prediction model of ship maneuvering fast-dynamics," *Ocean Engineering*, vol. 288, p. 115989, Nov. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801823023739)
+
+1. Ning Wang, Xiangjun Kong, Boyu Ren, Lizhu Hao, Bing Han, "SeaBil: Self-attention-weighted ultrashort-term deep learning prediction of ship maneuvering motion," *Ocean Engineering*, vol. 287, p. 115890, Nov. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801823022746)
+
+1. Qi Dong, Ning Wang, Jialin Song, Lizhu Hao, Shaoman Liu, Bing Han, Kai Qu, "Math-data integrated prediction model for ship maneuvering motion," *Ocean Engineering*, vol. 285, p. 115255, Oct. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801823016396)
+
+1. Tingkai Chen, Ning Wang, Yanzheng Chen, Xiangjun Kong, Yejin Lin, Hong Zhao, Hamid Reza Karimi, "Semantic attention and relative scene depth-guided network for underwater image enhancement," *Engineering Applications of Artificial Intelligence*, vol. 123, p. 106532, Aug. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0952197623007169)
+
+1. Kangjian Shao, Ning Wang, Hongde Qin, "Sideslip angle observation-based LOS and adaptive finite-time path following control for sailboat," *Ocean Engineering*, vol. 281, p. 114636, Aug. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S002980182301020X)
+
+1. Ning Wang, Tingkai Chen, Shaoman Liu, Rongfeng Wang, Hamid Reza Karimi, Yejin Lin, "Deep learning-based visual detection of marine organisms: A survey," *Neurocomputing*, vol. 532, pp. 1-32, May 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S092523122300156X)
 
 1. Ning Wang, Tingkai Chen, Xiangjin Kong, Yanzheng Chen, Rongfeng Wang, Yongjun Gong, Shiji Song, "Underwater attentional generative adversarial networks for image enhancement," *IEEE Transactions on Human-Machine Systems*, vol. 53, no. 3, pp. 490-500, Jul. 2023. [Link](https://ieeexplore.ieee.org/abstract/document/10102682/) 
-2. Ning Wang, Hongkun He, Yuli Hou, Bin Han, "Model-free visual servo swarming of manned-unmanned surface vehicles with visibility maintenance and collision avoidance," *IEEE Transactions on Intelligent Transportation Systems*, vol. 2023 Apr. 2023. [Link](https://ieeexplore.ieee.org/abstract/document/10247104) 
-3. Ning Wang, Yuhang Zhang, Choon Ki Ahn, Qingyang Xu, "Autonomous pilot of unmanned surface vehicles: Bridging path planning and tracking," *IEEE Transactions on Vehicular Technology*, vol. 71, no. 3, pp. 2358-2374, May 2022. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/9656611) 
-4. Ning Wang, He Li, "Leader-follower formation control of surface vehicles: A fixed-time control approach," *ISA Transactions*, vol. 124, pp. 356-364, Apr. 2022. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
-5. Ning Wang, Yuanyuan Wang, Meng Joo Er, "Review on deep learning techniques for marine object recognition: Architectures and algorithms," *Control Engineering Practice*, vol. 118, pp. 104458, Apr. 2022. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
-6. Ning Wang, Hongkun He, "Extreme learning-based monocular visual servo of an unmanned surface vessel," *IEEE Transactions on Industrial Informatics*, vol. 17, no. 8, pp. 5152-5163, Aug. 2021. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
-7. Ning Wang, Choon Ki Ahn, "Coordinated trajectory tracking control of a marine aerial-surface heterogeneous system," IEEE/ASME Transactions on Mechatronics, vol. 26, no. 6, pp. 3198-3210, Apr. 2021.[src]
-[38]Ning Wang*, Shun-Feng Su, "Finite-time unknown observer based interactive trajectory tracking control of asymmetric underactuated surface vehicles," IEEE Transactions on Control Systems Technology, vol. 29, no. 2, pp. 794-803, Dec. 2021.(ESI高被引)[src]
-[37]Ning Wang*, Ying Gao, Xuefeng Zhang, "Data-driven performance-prescribed reinforcement learning control of an unmanned surface vehicle," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 12, pp. 5456-5467, Dec. 2021.(ESI高被引)[src]
-[36]Ning Wang*, Ying Gao, Hong Zhao, Choon Ki Ahn, "Reinforcement learning-based optimal tracking control of an unknown unmanned surface vehicle," IEEE Transactions on Neural Networks and Learning Systems, vol. 32, no. 7, pp. 3034-3045, Apr. 2021.(ESI高被引)
+
+1. Shengke Ni, Ning Wang, Ziyi Qin, Xihan Yang, Zhengjiang Liu, Haijiang Li, "A distributed coordinated path planning algorithm for maritime autonomous surface ship," *Ocean Engineering*, vol. 271, p. 113759, Mar. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801823001439)
+
+1. Hongde Qin, Jinshuai Si, Ning Wang, Liyang Gao, "Fast fixed-time nonsingular terminal sliding-mode formation control for autonomous underwater vehicles based on a disturbance observer," *Ocean Engineering*, vol. 270, p. 113423, Feb. 2023. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801822027068)
+
+1. Ning Wang, Yuhang Zhang, Choon Ki Ahn, Qingyang Xu, "Autonomous pilot of unmanned surface vehicles: Bridging path planning and tracking," *IEEE Transactions on Vehicular Technology*, vol. 71, no. 3, pp. 2358-2374, May 2022. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/9656611) 
+
+1. Shengke Ni, Ning Wang, Wei Li, Zhengjiang Liu, Shaoman Liu, Siming Fang, Teng Zhang, "A deterministic collision avoidance decision-making system for multi-MASS encounter situation," *Ocean Engineering*, vol. 266, p. 113087, Dec. 2022. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801822023708)
+
+1. Yejin Lin, Ning Wang, Xin Hui, Hamid Reza Karimi, Shaoman Liu, "Finite-time cascade-like tracking control of direct-drive wave energy converters," *Ocean Engineering*, vol. 266, p. 112622, Dec. 2022. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801822019059)
+
+1. Yongpeng Weng, Ning Wang, "SMC-based model-free tracking control of unknown autonomous surface vehicles," *ISA transactions*, vol. 130, pp. 684-691, Nov. 2022. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057822004165)
+
+1. Yongpeng Weng, Ning Wang, "Finite-time observer-based model-free time-varying sliding-mode control of disturbed surface vessels," *Ocean Engineering*, vol. 251, p. 110866, May 2022. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801822003067)
+
+1. Ning Wang, Ying Gao, Chen Yang, Xuefeng Zhang, "Reinforcement learning-based finite-time tracking control of an unknown unmanned surface vehicle with input constraints," *Neurocomputing*, vol. 484, pp. 26-37, May 2022. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231221015733)
+
+1. Ning Wang, He Li, "Leader-follower formation control of surface vehicles: A fixed-time control approach," *ISA Transactions*, vol. 124, pp. 356-364, Apr. 2022. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0019057820302305)
+
+1. Hamid Reza Karimi, Ning Wang, Zhihong Man, "Learning‐based robust control methodologies under information constraints,", *International Journal of Robust & Nonlinear Control*, vol. 32, no. 5, pp. 2467-2471, Mar. 2022. [Link](https://onlinelibrary.wiley.com/doi/full/10.1002/rnc.5973)
+
+1. Ning Wang, Ying Gao, Yongjin Liu, Kun Li, "Self‐learning‐based optimal tracking control of an unmanned surface vehicle with pose and velocity constraints," *International Journal of Robust & Nonlinear Control*, vol. 32, no. 5, pp. 2950-2968, Mar. 2022. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.5978)
+
+1. Ning Wang, Yuanyuan Wang, Meng Joo Er, "Review on deep learning techniques for marine object recognition: Architectures and algorithms," *Control Engineering Practice*, vol. 118, p. 104458, Jan. 2022. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0967066120300964)
+
+1. Ning Wang, Shun-Feng Su, "Finite-time unknown observer based interactive trajectory tracking control of asymmetric underactuated surface vehicles," *IEEE Transactions on Control Systems Technology*, vol. 29, no. 2, pp. 794-803, Mar. 2021. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8933358)
+
+1. Ning Wang, Hongkun He, "Extreme learning-based monocular visual servo of an unmanned surface vessel," *IEEE Transactions on Industrial Informatics*, vol. 17, no. 8, pp. 5152-5163, Aug. 2021. [Link](https://ieeexplore.ieee.org/abstract/document/9240068)
+
+1. Tingkai Chen, Ning Wang, Rongfeng Wang, Hong Zhao, Guichen Zhang, "One-stage CNN detector-based benthonic organisms detection with limited training dataset," *Neural Networks*, vol. 144, pp. 247-259, Dec. 2021. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0893608021003191)
+
+1. Ning Wang, Zhongben Zhu, Hongde Qin, Zhongchao Deng, Yanchao Sun, "Finite‐time extended state observer‐based exact tracking control of an unmanned surface vehicle," *International Journal of Robust & Nonlinear Control*, vol. 31, no. 5, pp. 1704-1719, Mar. 2021. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.5369)
+
+1. Ning Wang, Ying Gao, Xuefeng Zhang, "Data-driven performance-prescribed reinforcement learning control of an unmanned surface vehicle," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 32, no. 12, pp. 5456-5467, Dec. 2021. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/9358986)
+
+1. Ning Wang, Choon Ki Ahn, "Coordinated trajectory tracking control of a marine aerial-surface heterogeneous system," *IEEE/ASME Transactions on Mechatronics*, vol. 26, no. 6, pp. 3198-3210, Dec. 2021. [Link](https://ieeexplore.ieee.org/abstract/document/9339888)
+
+1. Ning Wang, Ying Gao, Hong Zhao, Choon Ki Ahn, "Reinforcement learning-based optimal tracking control of an unknown unmanned surface vehicle," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 32, no. 7, pp. 3034-3045, Jul. 2021. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/9154585)
+
+1. Wei Sun, Jhih-Wei Lin, Shun-Feng Su, Ning Wang, Meng Joo Er, "Reduced adaptive fuzzy decoupling control for lower limb exoskeleton," *IEEE Transactions on Cybernetics*, vol. 51, no. 3, pp. 1099-1109, Mar. 2021. [Link](https://ieeexplore.ieee.org/abstract/document/9013052)
+
+1. Ning Wang, Hongwei Xu, "Dynamics-constrained global-local hybrid path planning of an autonomous surface vehicle," *IEEE Transactions on Vehicular Technology*, vol. 69, no. 7, pp. 6928-6942, Jul. 2020. [Link](https://ieeexplore.ieee.org/abstract/document/9082129)
+
+1. Ning Wang, Xinxiang Pan, Shun-Feng Su, "Finite-time fault-tolerant trajectory tracking control of an autonomous surface vehicle," *Journal of the Franklin Institute*, vol. 357, no. 16 pp. 11114-11135, Nov. 2020. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0016003219303461)
+
+1. Yongpeng Weng, Ning Wang, "Data‐driven robust backstepping control of unmanned surface vehicles," *International Journal of Robust & Nonlinear Control*, vol. 30, no. 9, pp. 3624-3638, Jun. 2020. [Link](https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.4956)
+
+1. Hongde Qin, Chengpeng Li, Yanchao Sun, Ning Wang, "Adaptive trajectory tracking algorithm of unmanned surface vessel based on anti-windup compensator with full-state constraints," *Ocean Engineering*, vol. 200, p. 106906, Mar. 2020. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801819309916)
+
+1. Yongpeng Weng, Ning Wang, Carlos Guedes Soares, "Data-driven sideslip observer-based adaptive sliding-mode path-following control of underactuated marine vessels," *Ocean Engineering*, vol. 197, p. 106910, Feb. 2020. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801819309953)
+
+1. Ning Wang, Hongkun He, "Dynamics-level finite-time fuzzy monocular visual servo of an unmanned surface vehicle," *IEEE Transactions on Industrial Electronics*, vol. 67, no. 11, pp. 9648-9658, Nov. 2020. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8902216)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [35]
 Ning Wang*, Choon Ki Ahn, "Hyperbolic-tangent LOS guidance-based finite-time path following of underactuated marine vehicles," IEEE Transactions on Industrial Electronics, vol. 67, no. 10, pp. 8566-8575, Jul. 2020.[src]
-[34]Ning Wang*, Hongwei Xu, "Dynamics-constrained global-local hybrid path planning of an autonomous surface vehicle," IEEE Transactions on Vehicular Technology, vol. 69, no. 7, pp. 6928-6942, Dec. 2020.[src]
+
 [33]Ning Wang*, Xinxiang Pan, Shun-Feng Su, "Finite-time fault-tolerant trajectory tracking control of an autonomous surface vehicle," Journal of the Franklin Institute, vol. 357, no. 16, pp. 11114-11135, Dec. 2020.(ESI高被引)[src]
 [32]Ning Wang*, Zhongchao Deng, "Finite-time fault estimator based fault-tolerance control for a surface vehicle with input saturations," IEEE Transactions on Industrial Informatics, vol. 16, no. 2, pp. 1172-1181, Sep. 2020.(ESI高被引)[src]
 [31]Ning Wang*, Hamid Reza Karimi, "Successive waypoints tracking of an underactuated surface vehicle," IEEE Transactions on Industrial Informatics, vol. 16, no. 2, pp. 898-908, Mar. 2020.(ESI高被引)[src]
-[30]Ning Wang*, Hongkun He, "Dynamics-level finite-time fuzzy monocular visual servo of an unmanned surface vehicle," IEEE Transactions on Industrial Electronics, vol. 67, no. 11, pp. 9648-9658, Jan. 2020.(ESI高被引)[src]
+
 [29]Ning Wang*, Zhuo Sun, Yuhang Jiao, Guangjie Han, "Surge-heading guidance based finite-time path-following of underactuated marine vehicles," IEEE Transactions on Vehicular Technology, vol. 68, no. 9, pp. 8523-8532, Feb. 2019.[src]
 [28]Ning Wang*, Xinxiang Pan, "Path-following of autonomous underactuated ships: A translation-rotation cascade control approach," IEEE/ASME Transactions on Mechatronics, vol. 24, no. 6, pp. 2583-2593, Jul. 2019.[src]
 [27]Ning Wang*, Zhuo Sun, Jianchuan Yin, Zaojian Zou, Shun-Feng Su, "Fuzzy unknown observer-based robust adaptive path following control of underactuated surface vehicles subject to multiple unknowns," Ocean Engineering, vol. 176, pp. 57-64, May 2019.(ESI高被引)[src]
