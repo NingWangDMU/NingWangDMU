@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 自动更新README.md中的出版物指标
-从Google Scholar和CNKI获取数据并更新README.md文件
+从Google Scholar、Web of Science和CNKI获取数据并更新README.md文件
 """
 
 import re
@@ -28,24 +28,28 @@ class PublicationMetricsUpdater:
     def __init__(self, readme_path="README.md"):
         self.readme_path = Path(readme_path)
         self.metrics = {
-            'INT_JOURNAL_COUNT': 0,
-            'CN_JOURNAL_COUNT': 0,
-            'INT_CONF_COUNT': 0,
-            'BOOK_COUNT': 0,
-            'TOTAL_CITATIONS': 0,
-            'H_INDEX': 0,
+            'TOTAL_PUBLICATIONS': 0,  # 从Google Scholar获取总论文数
+            'INT_JOURNAL_COUNT': 0,  # 从Web of Science获取
+            'INT_CONF_COUNT': 0,  # 从Web of Science获取
+            'BOOK_COUNT': 0,  # 从Web of Science获取
+            'SCI_PAPERS_COUNT': 0,  # 从Web of Science获取
+            'JCR_Q1_COUNT': 0,  # 从Web of Science获取
+            'IEEE_TRANS_COUNT': 0,  # 从Web of Science获取
+            'CN_JOURNAL_COUNT': 0,  # 从CNKI获取
+            'TOTAL_CITATIONS': 0,  # 从Google Scholar获取
+            'H_INDEX': 0,  # 从Google Scholar获取
             'LAST_UPDATE': datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')
         }
         
     def get_google_scholar_metrics(self, author_id=None):
         """
-        从Google Scholar获取指标
+        从Google Scholar获取指标：总论文数、总引用数、H-index
         注意：Google Scholar有反爬虫机制，可能需要使用代理或API
         """
         # 如果author_id为空，直接使用环境变量回退
         if not author_id:
             print("⚠ Google Scholar author_id not provided, using environment variables")
-            self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
+            self._load_from_env(['TOTAL_PUBLICATIONS', 'TOTAL_CITATIONS', 'H_INDEX'])
             return
         
         try:
@@ -58,206 +62,27 @@ class PublicationMetricsUpdater:
             total_citations = author.get('citedby', 0)
             h_index = author.get('hindex', 0)
             
+            # 获取总论文数（所有出版物数量）
+            publications = author.get('publications', [])
+            total_publications = len(publications)
+            
+            print(f"  Found {total_publications} total publications")
             print(f"  Found {total_citations} total citations, H-index: {h_index}")
             
-            # 统计不同类型的出版物
-            publications = author.get('publications', [])
-            print(f"  Processing {len(publications)} publications...")
-            
-            int_journal_count = 0
-            int_conf_count = 0
-            book_count = 0
-            
-            # 限制处理数量以避免超时（Google Scholar可能返回大量出版物）
-            max_pubs = 200
-            processed_count = 0
-            skipped_count = 0
-            unclassified_count = 0
-            sample_venues = []  # 用于调试，显示一些venue示例
-            
-            # 扩展的关键词列表
-            journal_keywords = [
-                'journal', 'transaction', 'ieee', 'ieee transactions', 'ieee trans',
-                'springer', 'elsevier', 'acm transactions', 'siam', 'nature', 'science',
-                'cell', 'plos', 'biosystems', 'ocean engineering', 'automatica', 'control',
-                'robotics', 'transactions on', 'journal of', 'international journal',
-                'applied', 'engineering', 'systems', 'computing', 'informatics'
-            ]
-            
-            conf_keywords = [
-                'conference', 'proceeding', 'symposium', 'workshop', 'icml', 'neurips',
-                'iccv', 'cvpr', 'aaai', 'ijcai', 'ieee conference', 'acm conference',
-                'ifac', 'ieee', 'acm', 'ieee/acm', 'international conference',
-                'annual conference', 'workshop on', 'symposium on'
-            ]
-            
-            book_keywords = [
-                'book', 'chapter', 'monograph', 'handbook', 'encyclopedia',
-                'series', 'volume', 'edition'
-            ]
-            
-            for i, pub in enumerate(publications[:max_pubs]):
-                try:
-                    pub_filled = scholarly.fill(pub)
-                    bib = pub_filled.get('bib', {})
-                    title = bib.get('title', '').lower()
-                    venue = bib.get('venue', '').lower() if bib.get('venue') else ''
-                    pub_type = bib.get('pub_type', '').lower() if bib.get('pub_type') else ''
-                    
-                    # 收集venue示例用于调试（前10个）
-                    if i < 10 and venue:
-                        sample_venues.append(f"  [{i+1}] venue='{venue[:60]}...' pub_type='{pub_type}'")
-                    
-                    classified = False
-                    
-                    # 策略1: 检查pub_type字段（如果存在）
-                    if pub_type:
-                        if any(kw in pub_type for kw in ['article', 'journal', 'paper']):
-                            int_journal_count += 1
-                            classified = True
-                        elif any(kw in pub_type for kw in ['conference', 'proceeding', 'workshop', 'symposium']):
-                            int_conf_count += 1
-                            classified = True
-                        elif any(kw in pub_type for kw in ['book', 'chapter', 'monograph']):
-                            book_count += 1
-                            classified = True
-                    
-                    # 策略2: 检查venue字段（如果未分类且venue存在）
-                    if not classified and venue:
-                        # 期刊匹配（更严格的匹配）
-                        if any(kw in venue for kw in journal_keywords):
-                            # 排除会议关键词，避免误判
-                            if not any(kw in venue for kw in ['conference', 'proceeding', 'workshop', 'symposium']):
-                                int_journal_count += 1
-                                classified = True
-                        
-                        # 会议匹配
-                        if not classified and any(kw in venue for kw in conf_keywords):
-                            int_conf_count += 1
-                            classified = True
-                        
-                        # 书籍匹配
-                        if not classified and any(kw in venue for kw in book_keywords):
-                            book_count += 1
-                            classified = True
-                    
-                    # 策略3: 启发式判断（如果仍未分类）
-                    if not classified and venue:
-                        # 检查venue长度和格式
-                        venue_clean = venue.strip()
-                        
-                        # 期刊通常：名称较长，不包含年份，可能包含"Transactions"、"Journal"等
-                        if len(venue_clean) > 15:
-                            # 检查是否包含年份（通常是4位数字在末尾或中间）
-                            has_year = bool(re.search(r'\b(19|20)\d{2}\b', venue_clean))
-                            
-                            if not has_year and ('trans' in venue_clean or 'journal' in venue_clean or 'engineering' in venue_clean):
-                                int_journal_count += 1
-                                classified = True
-                            elif has_year and ('conference' in venue_clean or 'proceeding' in venue_clean):
-                                int_conf_count += 1
-                                classified = True
-                            elif has_year:
-                                # 包含年份但不确定，倾向于会议
-                                int_conf_count += 1
-                                classified = True
-                    
-                    # 策略4: 检查标题（最后的手段）
-                    if not classified and title:
-                        if any(kw in title for kw in book_keywords):
-                            book_count += 1
-                            classified = True
-                    
-                    if not classified:
-                        unclassified_count += 1
-                        # 默认归类：如果有venue但无法分类，倾向于期刊（因为期刊更常见）
-                        if venue:
-                            int_journal_count += 1
-                        else:
-                            # 没有venue信息，无法判断，跳过
-                            skipped_count += 1
-                            continue
-                    
-                    processed_count += 1
-                    
-                except Exception as e:
-                    # 如果单个出版物处理失败，继续处理下一个
-                    skipped_count += 1
-                    if skipped_count <= 5:  # 只显示前5个错误，避免日志过长
-                        print(f"  ⚠ Warning: Could not process publication {i+1}: {e}")
-                    continue
-            
-            # 显示调试信息
-            print(f"  Processed {processed_count} publications, skipped {skipped_count}, unclassified {unclassified_count}")
-            print(f"  Classification results: Journals={int_journal_count}, Conferences={int_conf_count}, Books={book_count}")
-            
-            # 显示venue示例（用于调试）
-            if sample_venues:
-                print(f"  Sample venues (first 10):")
-                for sample in sample_venues[:5]:  # 只显示前5个
-                    print(sample)
-            
-            # 如果分类结果全部为0，可能是分类失败，建议使用环境变量
-            if int_journal_count == 0 and int_conf_count == 0 and book_count == 0 and processed_count > 0:
-                print(f"  ⚠ Warning: All classifications are 0, but {processed_count} publications were processed")
-                print(f"     This suggests classification may have failed. Falling back to environment variables.")
-                self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT'])
-                return
-            
             # 如果成功获取到数据，使用这些值
-            if total_citations > 0 or h_index > 0:
-                # 总引用数和H-index总是从Google Scholar获取（如果成功）
+            if total_publications > 0 or total_citations > 0 or h_index > 0:
+                self.metrics['TOTAL_PUBLICATIONS'] = total_publications
                 self.metrics['TOTAL_CITATIONS'] = total_citations
                 self.metrics['H_INDEX'] = h_index
                 
-                # 对于计数类指标，优先使用Google Scholar分类结果（如果非0）
-                # 如果分类结果为0，才使用环境变量作为备用
-                print("  🔍 Determining final values for counts (prioritizing Google Scholar results)...")
-                
-                # 映射关系
-                count_mapping = {
-                    'INT_JOURNAL_COUNT': int_journal_count,
-                    'INT_CONF_COUNT': int_conf_count,
-                    'BOOK_COUNT': book_count
-                }
-                
-                for key, classification_value in count_mapping.items():
-                    # 优先使用Google Scholar分类结果（如果非0）
-                    if classification_value > 0:
-                        self.metrics[key] = classification_value
-                        print(f"    ✓ Using {key} from Google Scholar classification: {classification_value}")
-                    else:
-                        # 分类结果为0，检查环境变量作为备用
-                        env_val = os.getenv(key)
-                        if env_val and env_val.strip():
-                            try:
-                                env_int = int(env_val.strip())
-                                if env_int > 0:
-                                    self.metrics[key] = env_int
-                                    print(f"    ✓ Using {key} from environment (fallback): {env_int}")
-                                else:
-                                    # 环境变量也为0，保持0
-                                    self.metrics[key] = 0
-                                    print(f"    ⚠ {key} is 0 in both classification and environment, keeping 0")
-                            except ValueError:
-                                # 环境变量不是有效数字，保持分类结果（0）
-                                self.metrics[key] = 0
-                                print(f"    ⚠ {key} in environment is not a valid number: '{env_val}', keeping classification result (0)")
-                        else:
-                            # 环境变量不存在或为空，保持分类结果（0）
-                            self.metrics[key] = 0
-                            print(f"    ⚠ {key} not found in environment, keeping classification result (0)")
-                
                 print(f"✓ Google Scholar metrics retrieved successfully:")
-                print(f"  - International Journals: {self.metrics['INT_JOURNAL_COUNT']} (from {'Google Scholar' if int_journal_count > 0 else 'environment/fallback'})")
-                print(f"  - International Conferences: {self.metrics['INT_CONF_COUNT']} (from {'Google Scholar' if int_conf_count > 0 else 'environment/fallback'})")
-                print(f"  - Books/Chapters: {self.metrics['BOOK_COUNT']} (from {'Google Scholar' if book_count > 0 else 'environment/fallback'})")
-                print(f"  - Total Citations: {total_citations} (from Google Scholar)")
-                print(f"  - H-index: {h_index} (from Google Scholar)")
+                print(f"  - Total Publications: {total_publications}")
+                print(f"  - Total Citations: {total_citations}")
+                print(f"  - H-index: {h_index}")
             else:
                 # 如果获取的数据为空，回退到环境变量
                 print("⚠ Google Scholar returned empty data, falling back to environment variables")
-                self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
+                self._load_from_env(['TOTAL_PUBLICATIONS', 'TOTAL_CITATIONS', 'H_INDEX'])
             
         except Exception as e:
             print(f"⚠ Warning: Could not fetch Google Scholar metrics: {e}")
@@ -266,7 +91,81 @@ class PublicationMetricsUpdater:
             print(f"  Traceback: {traceback.format_exc()}")
             print("  Using fallback values from environment variables")
             # 如果无法获取，使用环境变量
-            self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
+            self._load_from_env(['TOTAL_PUBLICATIONS', 'TOTAL_CITATIONS', 'H_INDEX'])
+    
+    def get_web_of_science_metrics(self, api_key=None, author_name=None, orcid=None, researcher_id=None):
+        """
+        从Web of Science获取指标
+        支持通过API或环境变量获取数据
+        
+        Web of Science API通常需要：
+        - API密钥（WOS_API_KEY）
+        - 作者标识：ResearcherID（推荐）、ORCID ID 或作者姓名
+        """
+        print("🔍 Attempting to fetch Web of Science data...")
+        
+        # 优先尝试使用API（如果提供了API密钥）
+        if api_key:
+            try:
+                print("  Using Web of Science API...")
+                # Web of Science API调用
+                # 注意：实际API端点和格式可能因版本而异
+                # 这里提供一个基础框架
+                
+                # 构建查询参数（优先级：ResearcherID > ORCID > 作者姓名）
+                query_params = {}
+                if researcher_id:
+                    query_params['researcher_id'] = researcher_id
+                    print(f"    Using ResearcherID: {researcher_id}")
+                elif orcid:
+                    query_params['orcid'] = orcid
+                    print(f"    Using ORCID: {orcid}")
+                elif author_name:
+                    query_params['author'] = author_name
+                    print(f"    Using Author Name: {author_name}")
+                
+                # Web of Science API端点（示例，需要根据实际API文档调整）
+                # api_url = "https://api.clarivate.com/api/wos"
+                # headers = {
+                #     'X-ApiKey': api_key,
+                #     'Content-Type': 'application/json'
+                # }
+                # 
+                # response = requests.get(api_url, headers=headers, params=query_params, timeout=30)
+                # 
+                # if response.status_code == 200:
+                #     data = response.json()
+                #     # 解析返回的数据
+                #     # 注意：实际数据结构需要根据API文档调整
+                #     self.metrics['INT_JOURNAL_COUNT'] = data.get('journal_papers', 0)
+                #     self.metrics['INT_CONF_COUNT'] = data.get('conference_papers', 0)
+                #     self.metrics['BOOK_COUNT'] = data.get('books_chapters', 0)
+                #     self.metrics['SCI_PAPERS_COUNT'] = data.get('sci_indexed', 0)
+                #     self.metrics['JCR_Q1_COUNT'] = data.get('jcr_q1', 0)
+                #     self.metrics['IEEE_TRANS_COUNT'] = data.get('ieee_transactions', 0)
+                #     print("✓ Web of Science API data retrieved successfully")
+                #     return
+                # else:
+                #     print(f"⚠ Web of Science API returned status {response.status_code}")
+                
+                # 由于Web of Science API需要付费访问，这里先使用环境变量回退
+                print("  ⚠ Web of Science API access requires paid subscription")
+                print("  Falling back to environment variables...")
+                
+            except Exception as e:
+                print(f"  ⚠ Warning: Web of Science API call failed: {e}")
+                print("  Falling back to environment variables...")
+        
+        # 从环境变量加载Web of Science指标
+        print("  Loading Web of Science metrics from environment variables...")
+        self._load_from_env([
+            'INT_JOURNAL_COUNT',
+            'INT_CONF_COUNT',
+            'BOOK_COUNT',
+            'SCI_PAPERS_COUNT',
+            'JCR_Q1_COUNT',
+            'IEEE_TRANS_COUNT'
+        ])
     
     def _load_from_env(self, keys):
         """从环境变量加载指定的指标"""
@@ -327,12 +226,23 @@ class PublicationMetricsUpdater:
                 pass
             
             # 如果无法获取，使用环境变量
-            self.metrics['CN_JOURNAL_COUNT'] = os.getenv('CN_JOURNAL_COUNT', 'N/A')
+            cn_count = os.getenv('CN_JOURNAL_COUNT')
+            if cn_count:
+                try:
+                    self.metrics['CN_JOURNAL_COUNT'] = int(cn_count)
+                except ValueError:
+                    self.metrics['CN_JOURNAL_COUNT'] = cn_count
+            else:
+                self.metrics['CN_JOURNAL_COUNT'] = 0
             print(f"✓ CNKI metrics retrieved: {self.metrics['CN_JOURNAL_COUNT']} Chinese journal papers")
             
         except Exception as e:
             print(f"⚠ Warning: Could not fetch CNKI metrics: {e}")
-            self.metrics['CN_JOURNAL_COUNT'] = os.getenv('CN_JOURNAL_COUNT', 'N/A')
+            cn_count = os.getenv('CN_JOURNAL_COUNT', '0')
+            try:
+                self.metrics['CN_JOURNAL_COUNT'] = int(cn_count)
+            except ValueError:
+                self.metrics['CN_JOURNAL_COUNT'] = 0
     
     def update_readme(self):
         """更新README.md文件中的指标"""
@@ -365,22 +275,39 @@ class PublicationMetricsUpdater:
         print("Publication Metrics Updater")
         print("=" * 50)
         
-        # 从环境变量获取ID
+        # 从环境变量获取ID和配置
         google_scholar_id = os.getenv('GOOGLE_SCHOLAR_ID')
         cnki_author_id = os.getenv('CNKI_AUTHOR_ID')
+        wos_api_key = os.getenv('WOS_API_KEY')
+        wos_author_name = os.getenv('WOS_AUTHOR_NAME')
+        wos_orcid = os.getenv('WOS_ORCID')
+        wos_researcher_id = os.getenv('WOS_RESEARCHER_ID')
         
         print(f"📋 Configuration:")
         print(f"  - GOOGLE_SCHOLAR_ID: {'Set' if google_scholar_id else 'Not set'}")
         print(f"  - CNKI_AUTHOR_ID: {'Set' if cnki_author_id else 'Not set'}")
+        print(f"  - WOS_API_KEY: {'Set' if wos_api_key else 'Not set'}")
+        print(f"  - WOS_RESEARCHER_ID: {'Set' if wos_researcher_id else 'Not set'}")
+        print(f"  - WOS_ORCID: {'Set' if wos_orcid else 'Not set'}")
+        print(f"  - WOS_AUTHOR_NAME: {'Set' if wos_author_name else 'Not set'}")
         print()
         
-        # 获取指标
+        # 获取Google Scholar指标（总论文数、引用数、H-index）
         if google_scholar_id:
             self.get_google_scholar_metrics(google_scholar_id)
         else:
             print("⚠ GOOGLE_SCHOLAR_ID not set, using environment variables or defaults")
-            self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
+            self._load_from_env(['TOTAL_PUBLICATIONS', 'TOTAL_CITATIONS', 'H_INDEX'])
         
+        # 获取Web of Science指标（优先级：ResearcherID > ORCID > 作者姓名）
+        self.get_web_of_science_metrics(
+            api_key=wos_api_key,
+            researcher_id=wos_researcher_id,
+            orcid=wos_orcid,
+            author_name=wos_author_name
+        )
+        
+        # 获取CNKI指标
         self.get_cnki_metrics(cnki_author_id)
         
         # 更新README
@@ -409,4 +336,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

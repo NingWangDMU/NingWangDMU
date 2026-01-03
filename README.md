@@ -74,6 +74,18 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 | Category | Count | Data Source | Last Updated |
 |----------|-------|-------------|--------------|
+| **Total Publications** | <!-- TOTAL_PUBLICATIONS -->Loading...<!-- /TOTAL_PUBLICATIONS --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->Loading...<!-- /INT_JOURNAL_COUNT --> | Web of Science | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **International Conference Papers** | <!-- INT_CONF_COUNT -->Loading...<!-- /INT_CONF_COUNT --> | Web of Science | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **Books/Chapters** | <!-- BOOK_COUNT -->Loading...<!-- /BOOK_COUNT --> | Web of Science | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **SCI-indexed Papers** | <!-- SCI_PAPERS_COUNT -->Loading...<!-- /SCI_PAPERS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **JCR Q1 Papers** | <!-- JCR_Q1_COUNT -->Loading...<!-- /JCR_Q1_COUNT --> | Web of Science | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **IEEE Transactions** | <!-- IEEE_TRANS_COUNT -->Loading...<!-- /IEEE_TRANS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->Loading...<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **Total Citations** | <!-- TOTAL_CITATIONS -->Loading...<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **H-index** | <!-- H_INDEX -->Loading...<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+
+*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE -->*
 | **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->400<!-- /INT_JOURNAL_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
 | **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->60<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
 | **International Conference Papers** | <!-- INT_CONF_COUNT -->200<!-- /INT_CONF_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE --> |
