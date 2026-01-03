@@ -45,55 +45,94 @@ class PublicationMetricsUpdater:
         # 如果author_id为空，直接使用环境变量回退
         if not author_id:
             print("⚠ Google Scholar author_id not provided, using environment variables")
-            self.metrics['INT_JOURNAL_COUNT'] = os.getenv('INT_JOURNAL_COUNT', 'N/A')
-            self.metrics['INT_CONF_COUNT'] = os.getenv('INT_CONF_COUNT', 'N/A')
-            self.metrics['BOOK_COUNT'] = os.getenv('BOOK_COUNT', 'N/A')
-            self.metrics['TOTAL_CITATIONS'] = os.getenv('TOTAL_CITATIONS', 'N/A')
-            self.metrics['H_INDEX'] = os.getenv('H_INDEX', 'N/A')
+            self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
             return
         
         try:
+            print(f"🔍 Attempting to fetch Google Scholar data for author ID: {author_id}")
             # 使用scholarly库获取作者信息
             author = scholarly.search_author_id(author_id)
             author = scholarly.fill(author)
             
+            # 获取基本指标
+            total_citations = author.get('citedby', 0)
+            h_index = author.get('hindex', 0)
+            
+            print(f"  Found {total_citations} total citations, H-index: {h_index}")
+            
             # 统计不同类型的出版物
             publications = author.get('publications', [])
+            print(f"  Processing {len(publications)} publications...")
             
             int_journal_count = 0
             int_conf_count = 0
             book_count = 0
             
-            for pub in publications:
-                pub_filled = scholarly.fill(pub)
-                title = pub_filled.get('bib', {}).get('title', '').lower()
-                venue = pub_filled.get('bib', {}).get('venue', '').lower()
+            # 限制处理数量以避免超时（Google Scholar可能返回大量出版物）
+            max_pubs = 200
+            for i, pub in enumerate(publications[:max_pubs]):
+                try:
+                    pub_filled = scholarly.fill(pub)
+                    title = pub_filled.get('bib', {}).get('title', '').lower()
+                    venue = pub_filled.get('bib', {}).get('venue', '').lower()
+                    
+                    # 简单分类逻辑（可根据实际情况调整）
+                    if 'journal' in venue or 'transaction' in venue or 'ieee' in venue:
+                        int_journal_count += 1
+                    elif 'conference' in venue or 'proceeding' in venue:
+                        int_conf_count += 1
+                    elif 'book' in venue or 'chapter' in title:
+                        book_count += 1
+                except Exception as e:
+                    # 如果单个出版物处理失败，继续处理下一个
+                    print(f"  ⚠ Warning: Could not process publication {i+1}: {e}")
+                    continue
+            
+            # 如果成功获取到数据，使用这些值
+            if total_citations > 0 or h_index > 0:
+                self.metrics['INT_JOURNAL_COUNT'] = int_journal_count
+                self.metrics['INT_CONF_COUNT'] = int_conf_count
+                self.metrics['BOOK_COUNT'] = book_count
+                self.metrics['TOTAL_CITATIONS'] = total_citations
+                self.metrics['H_INDEX'] = h_index
                 
-                # 简单分类逻辑（可根据实际情况调整）
-                if 'journal' in venue or 'transaction' in venue or 'ieee' in venue:
-                    int_journal_count += 1
-                elif 'conference' in venue or 'proceeding' in venue:
-                    int_conf_count += 1
-                elif 'book' in venue or 'chapter' in title:
-                    book_count += 1
-            
-            self.metrics['INT_JOURNAL_COUNT'] = int_journal_count
-            self.metrics['INT_CONF_COUNT'] = int_conf_count
-            self.metrics['BOOK_COUNT'] = book_count
-            self.metrics['TOTAL_CITATIONS'] = author.get('citedby', 0)
-            self.metrics['H_INDEX'] = author.get('hindex', 0)
-            
-            print(f"✓ Google Scholar metrics retrieved: {self.metrics['TOTAL_CITATIONS']} citations")
+                print(f"✓ Google Scholar metrics retrieved successfully:")
+                print(f"  - International Journals: {int_journal_count}")
+                print(f"  - International Conferences: {int_conf_count}")
+                print(f"  - Books/Chapters: {book_count}")
+                print(f"  - Total Citations: {total_citations}")
+                print(f"  - H-index: {h_index}")
+            else:
+                # 如果获取的数据为空，回退到环境变量
+                print("⚠ Google Scholar returned empty data, falling back to environment variables")
+                self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
             
         except Exception as e:
             print(f"⚠ Warning: Could not fetch Google Scholar metrics: {e}")
-            print("  Using fallback values or manual configuration")
-            # 如果无法获取，可以使用环境变量或配置文件中的值
-            self.metrics['INT_JOURNAL_COUNT'] = os.getenv('INT_JOURNAL_COUNT', 'N/A')
-            self.metrics['INT_CONF_COUNT'] = os.getenv('INT_CONF_COUNT', 'N/A')
-            self.metrics['BOOK_COUNT'] = os.getenv('BOOK_COUNT', 'N/A')
-            self.metrics['TOTAL_CITATIONS'] = os.getenv('TOTAL_CITATIONS', 'N/A')
-            self.metrics['H_INDEX'] = os.getenv('H_INDEX', 'N/A')
+            print(f"  Error type: {type(e).__name__}")
+            import traceback
+            print(f"  Traceback: {traceback.format_exc()}")
+            print("  Using fallback values from environment variables")
+            # 如果无法获取，使用环境变量
+            self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
+    
+    def _load_from_env(self, keys):
+        """从环境变量加载指定的指标"""
+        for key in keys:
+            value = os.getenv(key)
+            if value:
+                try:
+                    # 尝试转换为整数
+                    self.metrics[key] = int(value)
+                except ValueError:
+                    # 如果无法转换为整数，使用原始值
+                    self.metrics[key] = value
+                print(f"  ✓ Loaded {key} from environment: {self.metrics[key]}")
+            else:
+                # 如果环境变量不存在，保持默认值或设置为 'N/A'
+                if self.metrics[key] == 0:
+                    self.metrics[key] = 'N/A'
+                print(f"  ⚠ {key} not found in environment, using: {self.metrics[key]}")
     
     def get_cnki_metrics(self, author_id=None):
         """
@@ -155,16 +194,17 @@ class PublicationMetricsUpdater:
         google_scholar_id = os.getenv('GOOGLE_SCHOLAR_ID')
         cnki_author_id = os.getenv('CNKI_AUTHOR_ID')
         
+        print(f"📋 Configuration:")
+        print(f"  - GOOGLE_SCHOLAR_ID: {'Set' if google_scholar_id else 'Not set'}")
+        print(f"  - CNKI_AUTHOR_ID: {'Set' if cnki_author_id else 'Not set'}")
+        print()
+        
         # 获取指标
         if google_scholar_id:
             self.get_google_scholar_metrics(google_scholar_id)
         else:
             print("⚠ GOOGLE_SCHOLAR_ID not set, using environment variables or defaults")
-            self.metrics['INT_JOURNAL_COUNT'] = os.getenv('INT_JOURNAL_COUNT', 'N/A')
-            self.metrics['INT_CONF_COUNT'] = os.getenv('INT_CONF_COUNT', 'N/A')
-            self.metrics['BOOK_COUNT'] = os.getenv('BOOK_COUNT', 'N/A')
-            self.metrics['TOTAL_CITATIONS'] = os.getenv('TOTAL_CITATIONS', 'N/A')
-            self.metrics['H_INDEX'] = os.getenv('H_INDEX', 'N/A')
+            self._load_from_env(['INT_JOURNAL_COUNT', 'INT_CONF_COUNT', 'BOOK_COUNT', 'TOTAL_CITATIONS', 'H_INDEX'])
         
         self.get_cnki_metrics(cnki_author_id)
         
@@ -174,6 +214,10 @@ class PublicationMetricsUpdater:
         print("=" * 50)
         if success:
             print("✓ Update completed successfully!")
+            print(f"  Final metrics:")
+            for key, value in self.metrics.items():
+                if key != 'LAST_UPDATE':
+                    print(f"    - {key}: {value}")
         else:
             print("✗ Update failed!")
         print("=" * 50)
