@@ -70,7 +70,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ### 📖 Recent Publications & Resources
 
-**Selected Journal Papers**
+- **Selected Journal Papers**
 
 1. Yongchun Ma, Yongpeng Weng, Ning Wang, "Finite-time sideslip observer-based model-free fast path-following control of disturbed autonomous surface vehicles with large time-varying sideslip," *Ocean Engineering*, vol. 344, p. 123600, Jan. 2026. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801825032822)
 
@@ -217,10 +217,39 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Liang Cao, Hongyi Li, Ning Wang, Qi Zhou, "Observer-based event-triggered adaptive decentralized fuzzy control for nonlinear large-scale systems", *IEEE Transactions on Fuzzy Systems*, vol. 27, no. 6, pp. 1201-1214, Jun. 2019. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8481409)
 
+1. Min Han, Shuhui Zhang, Meiling Xu, Tie Qiu, Ning Wang, "Multivariate chaotic time series online prediction based on improved kernel recursive least squares algorithm," *IEEE Transactions on Cybernetics*, vol. 49, no. 4, pp. 1160-1172, Apr. 2019. [Link](https://ieeexplore.ieee.org/abstract/document/8291833)
+
+1. Ning Wang, Jing-Chao Sun, Min Han, Zhongjiu Zheng, Meng Joo Er, "Adaptive approximation-based regulation control for a class of uncertain nonlinear systems without feedback linearizability," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 29, no. 8, pp. 3747-3760, Aug. 2018. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8026570)
+
+1. Ning Wang, Shun-Feng Su, Jianchuan Yin, Zhongjiu Zheng, Meng Joo Er, "Global asymptotic model-free trajectory-independent tracking control of an uncertain marine vehicle: An adaptive universe-based fuzzy control approach," *IEEE Transactions on Fuzzy Systems*, vol. 26, no. 3, pp. 1613-1625, Jun. 2018. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8003434)
+
+1. Ning Wang, Jing-Chao Sun, Meng Joo Er, "Tracking-error-based universal adaptive fuzzy control for output tracking of nonlinear systems with completely unknown dynamics," *IEEE Transactions on Fuzzy Systems*, vol. 26, no. 2, pp. 869-883, Apr. 2018. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7908943)
+
+1. Jianchuan Yin, Ning Wang, Anastassios N Perakis, "A real-time sequential ship roll prediction scheme based on adaptive sliding data window," *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, vol. 48, no. 12, pp. 2115-2125, Dec. 2018. [Link](https://ieeexplore.ieee.org/abstract/document/8010345)
+
 1. Jian-Chuan Yin, Anastassios N Perakis, Ning Wang, "A real-time ship roll motion prediction using wavelet transform and variable RBF network," *Ocean Engineering*, vol. 160, pp. 10-19, Jul. 2018. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801818305523)
 
 1. Jian-Chuan Yin, Anastassios N Perakis, Ning Wang, "An ensemble real-time tidal level prediction mechanism using multiresolution wavelet decomposition method", *IEEE Transactions on Geoscience and Remote Sensing*, vol. 56, no. 8, pp. 4856-4865, Aug. 2018. [Link](https://ieeexplore.ieee.org/abstract/document/8392510)
 
+1. Ning Wang, Chunjiang Qian, Zong-Yao Sun, "Global asymptotic output tracking of nonlinear second-order systems with power integrators," *Automatica*, vol. 80, pp. 156-161, Jun. 2017. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0005109817301000)
+
+1. Ning Wang, Shuailin Lv, Weidong Zhang, Zhongzhong Liu, Meng Joo Er, "Finite-time observer based accurate tracking control of a marine vehicle with complex unknowns," *Ocean Engineering*, vol. 145, pp. 406-415, Nov. 2017. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801817305814)
+
+1. Ning Wang, Shuailin Lv, Meng Joo Er, Wen-Hua Chen, "Fast and accurate trajectory tracking control of an autonomous surface vehicle with unmodeled dynamics and disturbances," *IEEE Transactions on Intelligent Vehicles*, vol. 1, no. 3, pp. 230-243, Sep. 2016. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7829290)
+
+1. Ning Wang, Meng Joo Er, "Direct adaptive fuzzy tracking control of marine vehicles with fully unknown parametric dynamics and uncertainties," *IEEE Transactions on Control Systems Technology*, vol. 24, no. 5, pp. 1845-1852, Sep. 2016. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7374698)
+
+1. Ning Wang, Chunjiang Qian, Jing-Chao Sun, Yan-Cheng Liu, "Adaptive robust finite-time trajectory tracking control of fully actuated marine surface vehicles," *IEEE Transactions on Control Systems Technology*, vol. 24, no. 4, pp. 1454-1462, Jul. 2016. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7331625)
+
+1. Zhifei Shao, Meng Joo Er, Ning Wang, "An efficient leave-one-out cross-validation-based extreme learning machine (ELOO-ELM) with minimal user intervention," *IEEE Transactions on Cybernetics*, vol. 46, no. 8, pp. 1939-1951, Aug. 2016. [Link](https://ieeexplore.ieee.org/abstract/document/7173036)
+ 
+1. Ning Wang, Meng Joo Er, Jing-Chao Sun, Yan-Cheng Liu, "Adaptive robust online constructive fuzzy control of a complex surface vehicle system," *IEEE Transactions on Cybernetics*, vol. 46, no. 7, pp. 1511-1523, Jul. 2016. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7166312)
+
+1. Ning Wang, Meng Joo Er, "Self-constructing adaptive robust fuzzy neural tracking control of surface vehicles with uncertainties and unknown disturbances," *IEEE Transactions on Control Systems Technology*, vol. 23, no. 3, pp. 991-1002, May 2016. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/6919299)
+
+1. Ning Wang, Jing-Chao Sun, Meng Joo Er, Yan-Cheng Liu, "A novel extreme learning control framework of unmanned surface vehicles," *IEEE Transactions on Cybernetics*, vol. 46, no. 5, pp. 1106-1117, May 2016. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/7098387)
+
+1. Ning Wang, Meng Joo Er, Min Han, "Generalized single-hidden layer feedforward networks for regression problems," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 26, no. 6, pp. 1161-1176, Jun. 2015. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/6856201)
 
 
 
