@@ -44,10 +44,21 @@ jobs:
         TOTAL_CITATIONS: ${{ secrets.TOTAL_CITATIONS }}
         H_INDEX: ${{ secrets.H_INDEX }}
       run: |
+        echo "🔍 Checking environment variables..."
+        echo "GOOGLE_SCHOLAR_ID: ${GOOGLE_SCHOLAR_ID:+Set (hidden)}${GOOGLE_SCHOLAR_ID:-Not set}"
+        echo "CN_JOURNAL_COUNT: ${CN_JOURNAL_COUNT:+Set (hidden)}${CN_JOURNAL_COUNT:-Not set}"
+        echo "TOTAL_CITATIONS: ${TOTAL_CITATIONS:+Set (hidden)}${TOTAL_CITATIONS:-Not set}"
+        echo ""
+        
         # 优先尝试自动获取，如果失败则使用简化版本
         if [ -n "$GOOGLE_SCHOLAR_ID" ]; then
-          python scripts/update_metrics.py || python scripts/update_metrics_simple.py
+          echo "🚀 Attempting to fetch from Google Scholar..."
+          python scripts/update_metrics.py || {
+            echo "⚠ Google Scholar fetch failed, falling back to simple updater..."
+            python scripts/update_metrics_simple.py
+          }
         else
+          echo "📝 No Google Scholar ID, using simple updater with environment variables..."
           python scripts/update_metrics_simple.py
         fi
         
