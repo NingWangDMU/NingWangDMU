@@ -46,8 +46,24 @@ jobs:
       run: |
         echo "🔍 Checking environment variables..."
         echo "GOOGLE_SCHOLAR_ID: ${GOOGLE_SCHOLAR_ID:+Set (hidden)}${GOOGLE_SCHOLAR_ID:-Not set}"
-        echo "CN_JOURNAL_COUNT: ${CN_JOURNAL_COUNT:+Set (hidden)}${CN_JOURNAL_COUNT:-Not set}"
+        echo "INT_JOURNAL_COUNT: ${INT_JOURNAL_COUNT:+Set (value: $INT_JOURNAL_COUNT)}${INT_JOURNAL_COUNT:-Not set}"
+        echo "INT_CONF_COUNT: ${INT_CONF_COUNT:+Set (value: $INT_CONF_COUNT)}${INT_CONF_COUNT:-Not set}"
+        echo "BOOK_COUNT: ${BOOK_COUNT:+Set (value: $BOOK_COUNT)}${BOOK_COUNT:-Not set}"
+        echo "CN_JOURNAL_COUNT: ${CN_JOURNAL_COUNT:+Set (value: $CN_JOURNAL_COUNT)}${CN_JOURNAL_COUNT:-Not set}"
         echo "TOTAL_CITATIONS: ${TOTAL_CITATIONS:+Set (hidden)}${TOTAL_CITATIONS:-Not set}"
+        echo "H_INDEX: ${H_INDEX:+Set (hidden)}${H_INDEX:-Not set}"
+        echo ""
+        
+        # 验证关键环境变量
+        if [ -z "$INT_JOURNAL_COUNT" ] || [ "$INT_JOURNAL_COUNT" = "" ]; then
+          echo "⚠ Warning: INT_JOURNAL_COUNT is empty or not set"
+        fi
+        if [ -z "$INT_CONF_COUNT" ] || [ "$INT_CONF_COUNT" = "" ]; then
+          echo "⚠ Warning: INT_CONF_COUNT is empty or not set"
+        fi
+        if [ -z "$BOOK_COUNT" ] || [ "$BOOK_COUNT" = "" ]; then
+          echo "⚠ Warning: BOOK_COUNT is empty or not set"
+        fi
         echo ""
         
         # 优先尝试自动获取，如果失败则使用简化版本
