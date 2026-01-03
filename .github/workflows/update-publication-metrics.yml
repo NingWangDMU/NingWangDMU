@@ -2,8 +2,8 @@ name: Update Publication Metrics
 
 on:
   schedule:
-    # 每天UTC时间凌晨2点运行（北京时间上午10点）
-    - cron: '0 2 * * *'
+    # 每周一北京时间凌晨0点运行（UTC时间周日16点）
+    - cron: '0 16 * * 0'
   workflow_dispatch: # 允许手动触发
   push:
     branches:
@@ -36,47 +36,46 @@ jobs:
         # Google Scholar自动获取（如果可用）
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         CNKI_AUTHOR_ID: ${{ secrets.CNKI_AUTHOR_ID }}
-        # 手动设置指标（如果无法自动获取）
-        INT_JOURNAL_COUNT: ${{ secrets.INT_JOURNAL_COUNT }}
-        CN_JOURNAL_COUNT: ${{ secrets.CN_JOURNAL_COUNT }}
-        INT_CONF_COUNT: ${{ secrets.INT_CONF_COUNT }}
-        BOOK_COUNT: ${{ secrets.BOOK_COUNT }}
+        # Web of Science API配置（如果可用）
+        WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
+        WOS_RESEARCHER_ID: ${{ secrets.WOS_RESEARCHER_ID }}
+        WOS_ORCID: ${{ secrets.WOS_ORCID }}
+        WOS_AUTHOR_NAME: ${{ secrets.WOS_AUTHOR_NAME }}
+        # Google Scholar指标（如果无法自动获取）
+        TOTAL_PUBLICATIONS: ${{ secrets.TOTAL_PUBLICATIONS }}
         TOTAL_CITATIONS: ${{ secrets.TOTAL_CITATIONS }}
         H_INDEX: ${{ secrets.H_INDEX }}
+        # Web of Science指标（如果无法自动获取）
+        INT_JOURNAL_COUNT: ${{ secrets.INT_JOURNAL_COUNT }}
+        INT_CONF_COUNT: ${{ secrets.INT_CONF_COUNT }}
+        BOOK_COUNT: ${{ secrets.BOOK_COUNT }}
+        SCI_PAPERS_COUNT: ${{ secrets.SCI_PAPERS_COUNT }}
+        JCR_Q1_COUNT: ${{ secrets.JCR_Q1_COUNT }}
+        IEEE_TRANS_COUNT: ${{ secrets.IEEE_TRANS_COUNT }}
+        # CNKI指标
+        CN_JOURNAL_COUNT: ${{ secrets.CN_JOURNAL_COUNT }}
       run: |
         echo "🔍 Checking environment variables..."
         echo "GOOGLE_SCHOLAR_ID: ${GOOGLE_SCHOLAR_ID:+Set (hidden)}${GOOGLE_SCHOLAR_ID:-Not set}"
+        echo "WOS_API_KEY: ${WOS_API_KEY:+Set (hidden)}${WOS_API_KEY:-Not set}"
+        echo "WOS_RESEARCHER_ID: ${WOS_RESEARCHER_ID:+Set (hidden)}${WOS_RESEARCHER_ID:-Not set}"
+        echo "WOS_ORCID: ${WOS_ORCID:+Set (hidden)}${WOS_ORCID:-Not set}"
+        echo "WOS_AUTHOR_NAME: ${WOS_AUTHOR_NAME:+Set (hidden)}${WOS_AUTHOR_NAME:-Not set}"
+        echo "TOTAL_PUBLICATIONS: ${TOTAL_PUBLICATIONS:+Set (value: $TOTAL_PUBLICATIONS)}${TOTAL_PUBLICATIONS:-Not set}"
         echo "INT_JOURNAL_COUNT: ${INT_JOURNAL_COUNT:+Set (value: $INT_JOURNAL_COUNT)}${INT_JOURNAL_COUNT:-Not set}"
         echo "INT_CONF_COUNT: ${INT_CONF_COUNT:+Set (value: $INT_CONF_COUNT)}${INT_CONF_COUNT:-Not set}"
         echo "BOOK_COUNT: ${BOOK_COUNT:+Set (value: $BOOK_COUNT)}${BOOK_COUNT:-Not set}"
+        echo "SCI_PAPERS_COUNT: ${SCI_PAPERS_COUNT:+Set (value: $SCI_PAPERS_COUNT)}${SCI_PAPERS_COUNT:-Not set}"
+        echo "JCR_Q1_COUNT: ${JCR_Q1_COUNT:+Set (value: $JCR_Q1_COUNT)}${JCR_Q1_COUNT:-Not set}"
+        echo "IEEE_TRANS_COUNT: ${IEEE_TRANS_COUNT:+Set (value: $IEEE_TRANS_COUNT)}${IEEE_TRANS_COUNT:-Not set}"
         echo "CN_JOURNAL_COUNT: ${CN_JOURNAL_COUNT:+Set (value: $CN_JOURNAL_COUNT)}${CN_JOURNAL_COUNT:-Not set}"
         echo "TOTAL_CITATIONS: ${TOTAL_CITATIONS:+Set (hidden)}${TOTAL_CITATIONS:-Not set}"
         echo "H_INDEX: ${H_INDEX:+Set (hidden)}${H_INDEX:-Not set}"
         echo ""
         
-        # 验证关键环境变量
-        if [ -z "$INT_JOURNAL_COUNT" ] || [ "$INT_JOURNAL_COUNT" = "" ]; then
-          echo "⚠ Warning: INT_JOURNAL_COUNT is empty or not set"
-        fi
-        if [ -z "$INT_CONF_COUNT" ] || [ "$INT_CONF_COUNT" = "" ]; then
-          echo "⚠ Warning: INT_CONF_COUNT is empty or not set"
-        fi
-        if [ -z "$BOOK_COUNT" ] || [ "$BOOK_COUNT" = "" ]; then
-          echo "⚠ Warning: BOOK_COUNT is empty or not set"
-        fi
-        echo ""
-        
-        # 优先尝试自动获取，如果失败则使用简化版本
-        if [ -n "$GOOGLE_SCHOLAR_ID" ]; then
-          echo "🚀 Attempting to fetch from Google Scholar..."
-          python scripts/update_metrics.py || {
-            echo "⚠ Google Scholar fetch failed, falling back to simple updater..."
-            python scripts/update_metrics_simple.py
-          }
-        else
-          echo "📝 No Google Scholar ID, using simple updater with environment variables..."
-          python scripts/update_metrics_simple.py
-        fi
+        # 运行更新脚本
+        echo "🚀 Running update script..."
+        python scripts/update_metrics.py
         
     - name: Commit changes
       run: |
