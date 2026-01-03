@@ -182,36 +182,46 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Ning Wang, Hongkun He, "Dynamics-level finite-time fuzzy monocular visual servo of an unmanned surface vehicle," *IEEE Transactions on Industrial Electronics*, vol. 67, no. 11, pp. 9648-9658, Nov. 2020. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8902216)
 
+1. Ning Wang, Zhongchao Deng, "Finite-time fault estimator based fault-tolerance control for a surface vehicle with input saturations," *IEEE Transactions on Industrial Informatics*, vol. 16, no. 2, pp. 1172-1181, Feb. 2020. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8769923)
+
+1. Ning Wang, Hamid Reza Karimi, "Successive waypoints tracking of an underactuated surface vehicle," *IEEE Transactions on Industrial Informatics*, vol. 16, no. 2, pp. 898-908, Feb. 2020. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8736351)
+
+1. Ning Wang, Choon Ki Ahn, "Hyperbolic-tangent LOS guidance-based finite-time path following of underactuated marine vehicles," *IEEE Transactions on Industrial Electronics*, vol. 67, no. 10, pp. 8566-8575, Oct. 2020. [Link](https://ieeexplore.ieee.org/abstract/document/8879681)
+
+1. Chao Deng, Meng Joo Er, Guang-Hong Yang, Ning Wang, "Event-triggered consensus of linear multiagent systems with time-varying communication delays," *IEEE Transactions on Cybernetics*, vol. 50, no. 7, pp. 2916-2925, Jul. 2020. [Link](https://ieeexplore.ieee.org/abstract/document/8794709)
+
+1. Ning Wang, Hamid Reza Karimi, Hongyi Li, Shun-Feng Su, "Accurate trajectory tracking of disturbed surface vehicles: A finite-time control approach," *IEEE/ASME Transactions on Mechatronics*, vol. 24, no. 3, pp. 1064-1074, Jun. 2019. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8671737)
+
+1. Guangjie Han, Yu He, Jinfang Jiang, Ning Wang, Mohsen Guizani, James Adu Ansere, "A synergetic trust model based on SVM in underwater acoustic sensor networks," *IEEE Transactions on Vehicular Technology*, vol. 68, no. 11, pp. 11239-11247, Nov. 2019. [Link](https://ieeexplore.ieee.org/abstract/document/8823047)
+
+
+1. Ning Wang, Xinxiang Pan, "Path-following of autonomous underactuated ships: A translation-rotation cascade control approach," *IEEE/ASME Transactions on Mechatronics*, vol. 24, no. 6, pp. 2583-2593, Dec. 2019. [Link](https://ieeexplore.ieee.org/abstract/document/8782637)
+
+1. Ning Wang, Xiaozhao Jin, Meng Joo Er, "A multilayer path planner for a USV under complex marine environments," *Ocean Engineering*, vol. 184, pp. 1-10, Jul. 2019. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801819302422)
+
+1. Ning Wang, Zhuo Sun, Yuhang Jiao, Guangjie Han, "Surge-heading guidance based finite-time path-following of underactuated marine vehicles," *IEEE Transactions on Vehicular Technology*, vol. 68, no. 9, pp. 8523-8532, Sep. 2019. [Link](https://ieeexplore.ieee.org/abstract/document/8758933)
+
+1. Ning Wang, Qi Deng, Guangming Xie, Xinxiang Pan, "Hybrid finite-time trajectory tracking control of a quadrotor," *ISA Transactions*, vol. 90, pp. 278-286, Jul. 2019. [Link](https://www.sciencedirect.com/science/article/abs/pii/S001905781830538X)
+
+1. Siyuan Liu, Yancheng Liu, Xiaoling Liang, Ning Wang, "Uncertainty observation-based adaptive succinct fuzzy-neuro dynamic surface control for trajectory tracking of fully actuated underwater vehicle system with input saturation," *Nonlinear Dynamics*, vol. 98, no. 3, pp. 1683-1699, Nov. 2019. [Link](https://link.springer.com/article/10.1007/s11071-019-05279-w)
+
+1. Ning Wang, Zhuo Sun, Jianchuan Yin, Zaojian Zou, Shun-Feng Su, "Fuzzy unknown observer-based robust adaptive path following control of underactuated surface vehicles subject to multiple unknowns," *Ocean Engineering*, vol. 176, pp. 57-64, Mar. 2019. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801818308357)
+
+1. Ning Wang, Guangming Xie, Xinxiang Pan, Shun-Feng Su, "Full-state regulation control of asymmetric underactuated surface vehicles," *IEEE Transactions on Industrial Electronics*, vol. 66, no. 11, pp. 8741-8750, Nov. 2019. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8605518)
+
+1. Ning Wang, Shun-Feng Su, Xinxiang Pan, Xiang Yu, Guangming Xie, "Yaw-guided trajectory tracking control of an asymmetric underactuated surface vehicle," *IEEE Transactions on Industrial Informatics*, vol. 15, no. 6, pp. 3502-3513, Jun. 2019. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8500342)
+
+1. Ning Wang, Shun-Feng Su, Min Han, Wen-Hua Chen, "Backpropagating constraints based trajectory tracking control of a quadrotor with constrained actuator dynamics and complex unknowns," *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, vol. 49, no. 7, pp. 1322-1337, Jul. 2019. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8481409)
+
+1. Liang Cao, Hongyi Li, Ning Wang, Qi Zhou, "Observer-based event-triggered adaptive decentralized fuzzy control for nonlinear large-scale systems", *IEEE Transactions on Fuzzy Systems*, vol. 27, no. 6, pp. 1201-1214, Jun. 2019. **(Highly Cited Paper)** [Link](https://ieeexplore.ieee.org/abstract/document/8481409)
+
+1. Jian-Chuan Yin, Anastassios N Perakis, Ning Wang, "A real-time ship roll motion prediction using wavelet transform and variable RBF network," *Ocean Engineering*, vol. 160, pp. 10-19, Jul. 2018. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0029801818305523)
+
+1. Jian-Chuan Yin, Anastassios N Perakis, Ning Wang, "An ensemble real-time tidal level prediction mechanism using multiresolution wavelet decomposition method", *IEEE Transactions on Geoscience and Remote Sensing*, vol. 56, no. 8, pp. 4856-4865, Aug. 2018. [Link](https://ieeexplore.ieee.org/abstract/document/8392510)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-[35]
-Ning Wang*, Choon Ki Ahn, "Hyperbolic-tangent LOS guidance-based finite-time path following of underactuated marine vehicles," IEEE Transactions on Industrial Electronics, vol. 67, no. 10, pp. 8566-8575, Jul. 2020.[src]
-
-[33]Ning Wang*, Xinxiang Pan, Shun-Feng Su, "Finite-time fault-tolerant trajectory tracking control of an autonomous surface vehicle," Journal of the Franklin Institute, vol. 357, no. 16, pp. 11114-11135, Dec. 2020.(ESI高被引)[src]
-[32]Ning Wang*, Zhongchao Deng, "Finite-time fault estimator based fault-tolerance control for a surface vehicle with input saturations," IEEE Transactions on Industrial Informatics, vol. 16, no. 2, pp. 1172-1181, Sep. 2020.(ESI高被引)[src]
-[31]Ning Wang*, Hamid Reza Karimi, "Successive waypoints tracking of an underactuated surface vehicle," IEEE Transactions on Industrial Informatics, vol. 16, no. 2, pp. 898-908, Mar. 2020.(ESI高被引)[src]
-
-[29]Ning Wang*, Zhuo Sun, Yuhang Jiao, Guangjie Han, "Surge-heading guidance based finite-time path-following of underactuated marine vehicles," IEEE Transactions on Vehicular Technology, vol. 68, no. 9, pp. 8523-8532, Feb. 2019.[src]
-[28]Ning Wang*, Xinxiang Pan, "Path-following of autonomous underactuated ships: A translation-rotation cascade control approach," IEEE/ASME Transactions on Mechatronics, vol. 24, no. 6, pp. 2583-2593, Jul. 2019.[src]
-[27]Ning Wang*, Zhuo Sun, Jianchuan Yin, Zaojian Zou, Shun-Feng Su, "Fuzzy unknown observer-based robust adaptive path following control of underactuated surface vehicles subject to multiple unknowns," Ocean Engineering, vol. 176, pp. 57-64, May 2019.(ESI高被引)[src]
-[26]Ning Wang*, Guangming Xie, Xinxiang Pan, Shun-Feng Su, "Full-state regulation control of asymmetric underactuated surface vehicles," IEEE Transactions on Industrial Electronics, vol. 66, no. 11, pp. 8741-8750, Sep. 2019.(ESI高被引)[src]
-[25]Ning Wang*, Shun-Feng Su, Min Han, Wen-Hua Chen, "Backpropagating constraints based trajectory tracking control of a quadrotor with constrained actuator dynamics and complex unknowns," IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 49, no. 7, pp. 1322-1337, May 2019.(ESI高被引)[src]
-[24]Ning Wang*, Shun-Feng Su, Xinxiang Pan, Xiang Yu, Guangming Xie, "Yaw-guided trajectory tracking control of an asymmetric underactuated surface vehicle," IEEE Transactions on Industrial Informatics, vol. 15, no. 6, pp. 3502-3513, Feb. 2019.(ESI高被引)[src]
-[23]Ning Wang*, Hamid Reza Karimi, Hongyi Li, Shun-Feng Su, "Accurate trajectory tracking of disturbed surface vehicles: A finite-time control approach," IEEE/ASME Transactions on Mechatronics, vol. 24, no. 3, pp. 1064-1074, Oct. 2019.(ESI高被引)[src]
 
 
 
