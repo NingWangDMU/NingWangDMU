@@ -70,6 +70,21 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ### 📖 Recent Publications & Resources
 
+#### 📊 Publication Metrics
+
+| Category | Count | Data Source | Last Updated |
+|----------|-------|-------------|--------------|
+| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->Loading...<!-- /INT_JOURNAL_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->Loading...<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **International Conference Papers** | <!-- INT_CONF_COUNT -->Loading...<!-- /INT_CONF_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **Books/Chapters** | <!-- BOOK_COUNT -->Loading...<!-- /BOOK_COUNT --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **Total Citations** | <!-- TOTAL_CITATIONS -->Loading...<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+| **H-index** | <!-- H_INDEX -->Loading...<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE --> |
+
+*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->-<!-- /LAST_UPDATE -->*
+
+---
+
 - **Selected International Journal Papers**
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
@@ -306,28 +321,6 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 
 
-
-
-
-#### 2026
-
-
-#### 2025
-
-
-#### 2024
-
-
-#### 2023
-
-
-#### 2022
-
-
-#### 2021
-
-
-#### 2020
 
 
 #### Journal Papers

@@ -1,0 +1,61 @@
+name: Update Publication Metrics
+
+on:
+  schedule:
+    # 每天UTC时间凌晨2点运行（北京时间上午10点）
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 允许手动触发
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/update_metrics.py'
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install scholarly requests beautifulsoup4 lxml
+        
+    - name: Run update script
+      env:
+        # Google Scholar自动获取（如果可用）
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        CNKI_AUTHOR_ID: ${{ secrets.CNKI_AUTHOR_ID }}
+        # 手动设置指标（如果无法自动获取）
+        INT_JOURNAL_COUNT: ${{ secrets.INT_JOURNAL_COUNT }}
+        CN_JOURNAL_COUNT: ${{ secrets.CN_JOURNAL_COUNT }}
+        INT_CONF_COUNT: ${{ secrets.INT_CONF_COUNT }}
+        BOOK_COUNT: ${{ secrets.BOOK_COUNT }}
+        TOTAL_CITATIONS: ${{ secrets.TOTAL_CITATIONS }}
+        H_INDEX: ${{ secrets.H_INDEX }}
+      run: |
+        # 优先尝试自动获取，如果失败则使用简化版本
+        if [ -n "$GOOGLE_SCHOLAR_ID" ]; then
+          python scripts/update_metrics.py || python scripts/update_metrics_simple.py
+        else
+          python scripts/update_metrics_simple.py
+        fi
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git diff --staged --quiet || git commit -m "Auto-update publication metrics [skip ci]"
+        git push
+
