@@ -195,6 +195,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 
 
+
+
+
 [35]
 Ning Wang*, Choon Ki Ahn, "Hyperbolic-tangent LOS guidance-based finite-time path following of underactuated marine vehicles," IEEE Transactions on Industrial Electronics, vol. 67, no. 10, pp. 8566-8575, Jul. 2020.[src]
 
