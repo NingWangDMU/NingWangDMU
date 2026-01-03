@@ -72,7 +72,9 @@ class SimpleMetricsUpdater:
                     self.metrics[key] = int(value)
                     loaded = True
                 except ValueError:
+                    # 即使无法转换为整数，环境变量仍然存在并被使用
                     self.metrics[key] = value
+                    loaded = True
         
         if loaded:
             print(f"✓ Loaded metrics from environment variables")
