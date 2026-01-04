@@ -28,13 +28,24 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
 
 ### 🙋 Principal Investigator
 
-<div style="display: flex; align-items: flex-start; gap: 30px;">
-<div style="flex: 1;">
+<table align="right">
+<tr>
+<th align="center">
+  <img src="./ning.png" alt="Ning Wang" style="width: 200px; max-width: 200px; min-width: 120px; height: auto;">
+</th>
+</tr>
+<tr>
+<td align="center">
+  <strong>Ning Wang（王宁）</strong>
+</td>
+</tr>
+</table>
 
 - **Position:** Professor, Director of Center for Intelligent Marine Vehicles
 - **Affiliation:** School of Marine Engineering, Dalian Maritime University, China
 - **Research Areas:** Marine Robotics, Embodied Intelligence, Autonomous Systems
-- **Editorial Positions:** 
+<details>
+<summary><strong>- **Editorial Positions:** </strong></summary>
   - Associate Editor of *IEEE Transactions on Intelligent Transportation Systems*
   - Editorial Board Member of *Ocean Engineering*
   - Associate Editor of *Journal of Field Robotics*
@@ -46,7 +57,9 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
   - Associate Editor of *IET Electronics Letters*
   - Associate Editor of *Journal of Marine Science and Application*
   - Editorial Board Member of *Chinese Ship Research*
-- **Honors & Awards:** 
+</details>
+<details>
+<summary><strong>- **Honors & Awards:** </strong></summary>
   - National Young Top-notch Talent
   - Liaoning Leading Talent
   - Liaoning Outstanding Young Scholar
@@ -58,15 +71,11 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
   - Elsevier Highly Cited Researcher
   - Elsevier World’s Top 2% Scientists
   - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow
+</details>
 - **Email:** [n.wang.dmu.cn@gmail.com](mailto:n.wang.dmu.cn@gmail.com)
 - **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?hl=en&tzom=-480&user=dsK8i4EAAAAJ)
 
-</div>
-<div style="flex: 0 0 200px; text-align: center;">
-  <img src="./ning.png" alt="Ning Wang" style="width: 180px; max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px;">
-  <div style="font-weight: bold; font-size: 16px;">**Ning Wang** (王宁)</div>
-</div>
-</div>
+
 
 <!-- *Brief introduction about the director's background, achievements, and research contributions...* -->
 
@@ -109,7 +118,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ### 📚 Featured Publications & Resources
 
-#### 📊 Publication Metrics
+#### 📊  Publication Metrics
 
 | Category | Count | Data Source | Last Updated |
 |----------|-------|-------------|--------------|
@@ -123,10 +132,10 @@ MLOps platform for managing ML model lifecycle from development to production.
 *Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE -->*
 
 
-#### 📜 Selected Publications
+#### 📜  Selected Publications
 
 <details>
-<summary><strong>🌏International Journal Papers</strong></summary>
+<summary><strong>🌏 International Journal Papers</strong></summary>
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
 
