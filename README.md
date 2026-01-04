@@ -16,7 +16,13 @@ Here are some ideas to get you started:
 -->
 
 <div align="center">
-  <h2><em>Welcome to CIMV</em></h2>
+  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 40%; max-width: 40%; min-width: 300px; height: auto;">
+</div>
+
+---
+
+<div align="center">
+  <h1><em>Welcome to CIMV</em></h1>
 </div>
 
 
@@ -26,9 +32,7 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Location-Dalian%20China-green?style=for-the-badge" alt="Location Badge">
 </div> -->
 
-<div align="center">
-  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 40%; max-width: 40%; min-width: 300px; height: auto;">
-</div>
+
 
 ---
 
