@@ -24,7 +24,7 @@
 
 <!-- <img src="./cimv_badge.jpg" alt="CIMV Research" align="right" style="width: 25%; max-width: 25%; min-width: 150px; height: auto; border-radius: 8px; margin-left: 15px; margin-bottom: 10px; vertical-align: middle;"> -->
 
-The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties. Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications** and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
+The [*Center for Intelligent Marine Vehicles (CIMV)*](https://cimv.dmu.edu.cn/) is a premier research institution advancing embodied-intelligence marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and control, addressing challenges in severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties. Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications**, **100+ patents**, and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
 
 ---
 
@@ -33,7 +33,7 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
 <table align="right">
 <tr>
 <th align="center">
-  <img src="./ning.png" alt="Ning Wang" style="width: 200px; max-width: 200px; min-width: 120px; height: auto;">
+  <img src="./ning.png" alt="Ning Wang" style="width: 180px; max-width: 180px; min-width: 120px; height: auto;">
 </th>
 </tr>
 <tr>
@@ -44,13 +44,12 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
 </table>
 
 
-- **Position:** Professor, Director of Center for Intelligent Marine Vehicles
+- **Title & Position:** Professor, Director of Center for Intelligent Marine Vehicles
 - **Affiliation:** School of Marine Engineering, Dalian Maritime University, China
 - **Research Areas:** Marine Robotics, Embodied Intelligence, Autonomous Systems
 - **Editorial Positions:**
   <details>
-  <summary><strong>View Editorial Positions</strong></summary>
-  
+  <summary>&nbsp;View Details</summary>  
   - Associate Editor of *IEEE Transactions on Intelligent Transportation Systems*
   - Editorial Board Member of *Ocean Engineering*
   - Associate Editor of *Journal of Field Robotics*
@@ -61,13 +60,11 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
   - Associate Editor of *International Journal of Fuzzy Systems*
   - Associate Editor of *IET Electronics Letters*
   - Associate Editor of *Journal of Marine Science and Application*
-  - Editorial Board Member of *Chinese Ship Research*
-  
+  - Editorial Board Member of *Chinese Ship Research*  
   </details>
 - **Honors & Awards:** 
   <details>
-  <summary><strong>View Honors & Awards</strong></summary>
-  
+  <summary>&nbsp;View Details</summary>  
   - National Young Top-notch Talent
   - Liaoning Leading Talent
   - Liaoning Outstanding Young Scholar
@@ -78,11 +75,13 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
   - Clarivate Analytics Highly Cited Researcher
   - Elsevier Highly Cited Researcher
   - Elsevier World’s Top 2% Scientists
-  - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow
-  
+  - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow  
   </details>
 - **Email:** [n.wang.dmu.cn@gmail.com](mailto:n.wang.dmu.cn@gmail.com)
+- **Website:** [Personal Homepage](https://cimv.dmu.edu.cn/)
 - **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?hl=en&tzom=-480&user=dsK8i4EAAAAJ)
+- **Web of Science ResearcherID:** [B-2777-2012](https://www.webofscience.com/wos/author/record/B-2777-2012)
+- **ORCID:** [https://orcid.org/0000-0003-1745-1425](https://orcid.org/0000-0003-1745-1425)
 
 
 
@@ -127,7 +126,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ### 📚 Featured Publications & Resources
 
-#### 📊  Publication Metrics
+#### 📶&nbsp;&nbsp;Publication Metrics
 
 | Category | Count | Data Source | Last Updated |
 |----------|-------|-------------|--------------|
@@ -141,7 +140,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 *Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE -->*
 
 
-#### 📜  Selected Publications
+#### 📝&nbsp;&nbsp;Selected Publications
 
 <details>
 <summary><strong>🌏 International Journal Papers</strong></summary>
