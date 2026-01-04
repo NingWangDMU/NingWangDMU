@@ -29,9 +29,22 @@ Here are some ideas to get you started:
 
 ### 👨‍🎓 About Us
 
+<table>
+<tr>
+<td width="60%">
+
 The _Center for Intelligent Marine Vehicles (CIMV)_ is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties.
 
 Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications** and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
+
+</td>
+<td width="40%" align="center">
+
+<img src="https://via.placeholder.com/400x300?text=CIMV+Research+Image" alt="CIMV Research" style="max-width: 100%; height: auto; border-radius: 8px;">
+
+</td>
+</tr>
+</table>
 
 ---
 
