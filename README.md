@@ -76,16 +76,12 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 | Category | Count | Data Source | Last Updated |
 |----------|-------|-------------|--------------|
-| **Total Publications** | <!-- TOTAL_PUBLICATIONS -->1000<!-- /TOTAL_PUBLICATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **International Journal Papers** | <!-- INT_JOURNAL_COUNT -->400<!-- /INT_JOURNAL_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **International Conference Papers** | <!-- INT_CONF_COUNT -->200<!-- /INT_CONF_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **Books/Chapters** | <!-- BOOK_COUNT -->10<!-- /BOOK_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **SCI-indexed Papers** | <!-- SCI_PAPERS_COUNT -->180<!-- /SCI_PAPERS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
+| **SCI-indexed Papers** | <!-- SCI_PAPERS_COUNT -->298<!-- /SCI_PAPERS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
 | **JCR Q1 Papers** | <!-- JCR_Q1_COUNT -->160<!-- /JCR_Q1_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
 | **IEEE Transactions** | <!-- IEEE_TRANS_COUNT -->80<!-- /IEEE_TRANS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **Chinese Journal Papers** | <!-- CN_JOURNAL_COUNT -->60<!-- /CN_JOURNAL_COUNT --> | CNKI | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **Total Citations** | <!-- TOTAL_CITATIONS -->15000<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
-| **H-index** | <!-- H_INDEX -->70<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
+| **Total Publications** | <!-- TOTAL_PUBLICATIONS -->355<!-- /TOTAL_PUBLICATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
+| **Total Citations** | <!-- TOTAL_CITATIONS -->13668<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
+| **H-index** | <!-- H_INDEX -->68<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
 
 *Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE -->*
 
@@ -94,10 +90,6 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 <details>
 <summary><strong>International Journal Papers</strong></summary>
-
-#### 📄 Selected Publications
-
-- **International Journal Papers**
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
 
@@ -300,7 +292,8 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 </details>
 
-- **Chinese Journal Papers**
+<details>
+<summary><strong>Chinese Journal Papers</strong></summary>
 
 1. 王宁, 贾薇, 吴浩峻, 欠驱动无人船路径跟踪: 一种有限时间正切漂角视线制导方法, 控制与决策, 2025, 40(1): 187-195. [Link](https://d.wanfangdata.com.cn/periodical/kzyjc202501022)
 1. 王宁, 宋炳松, 高田宇, 考虑寿命衰减的燃料电池船舶自适应等效氢耗最小策略, 中国舰船研究, 2025, 20(4): 222-232. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyNTA0MDIzGgg0aXR3emk4OQ%3D%3D)
@@ -331,8 +324,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. 王宁, 王永, 余明裕, 四旋翼飞行器自适应动态面轨迹跟踪控制, 控制理论与应用, 2017, 34(9): 1185-1194. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIQa3psbHl5eTIwMTcwOTAwOBoIaGk1cjF4dWY%3D)
 
+</details>
 
-*Note: More publications are available at [Google Scholar](https://scholar.google.com/citations?user=QH8d1kAAAAAJ&hl=en)*
+*Note: More publications are available at [Google Scholar](https://scholar.google.com/citations?user=dsK8i4EAAAAJ&hl=en)*
 
 ---
 
