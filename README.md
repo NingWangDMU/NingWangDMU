@@ -19,12 +19,8 @@ Here are some ideas to get you started:
   <h2><em>Welcome to CIMV</em></h2>
 </div>
 
-<div align="center">
-  <img src="./cimv_head.png" alt="CIMV Badge">
-</div>
 
 <div align="center">
-  <img src="./cimv_head.png" alt="CIMV Badge">
   <img src="https://img.shields.io/badge/Professonal-Marine%20Engineering-blue?style=for-the-badge" alt="Professor Badge">
   <img src="https://img.shields.io/badge/Research-Marine%20Robotics-red?style=for-the-badge" alt="Research Badge">
   <img src="https://img.shields.io/badge/Location-Dalian%20China-green?style=for-the-badge" alt="Location Badge">
@@ -35,6 +31,10 @@ Here are some ideas to get you started:
 ### 👨‍🎓 About Us
 
 <!-- <img src="./cimv_badge.jpg" alt="CIMV Research" align="right" style="width: 25%; max-width: 25%; min-width: 150px; height: auto; border-radius: 8px; margin-left: 15px; margin-bottom: 10px; vertical-align: middle;"> -->
+
+<div align="center">
+  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 50%; max-width: 50%; min-width: 300px; height: auto;">
+</div>
 
 The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties. Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications** and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
 
