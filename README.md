@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 </div>
 
 <div align="center">
-  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 45%; max-width: 45%; min-width: 300px; height: auto;">
+  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 500px; max-width: 500px; min-width: 300px; height: auto;">
 </div>
 
 
