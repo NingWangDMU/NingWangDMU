@@ -42,6 +42,7 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 - Embodied Intelligence for Marine Robotics
 - SaaS-Oriented Marine Vehicle Simulator
 
+<!--
 ---
 
 ### 📚 Featured Research Projects
@@ -65,10 +66,11 @@ MLOps platform for managing ML model lifecycle from development to production.
 - **Key Features**: Model versioning, automated testing, CI/CD pipeline
 - **Technologies**: TensorFlow, PyTorch, MLflow, Docker
 - **Paper**: ["Operationalizing Machine Learning: A Production-Scale Approach"](http://example.com/paper3)
+-->
 
 ---
 
-### 📖 Recent Publications & Resources
+### 📖 Featured Publications & Resources
 
 #### 📊 Publication Metrics
 
@@ -86,6 +88,12 @@ MLOps platform for managing ML model lifecycle from development to production.
 | **H-index** | <!-- H_INDEX -->70<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE --> |
 
 *Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE -->*
+
+
+#### 📄 Selected Publications
+
+<details>
+<summary><strong>International Journal Papers</strong></summary>
 
 #### 📄 Selected Publications
 
@@ -290,6 +298,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Ning Wang, Meng Joo Er, Xianyao Meng, "A fast and accurate online self-organizing scheme for parsimonious fuzzy neural networks," *Neurocomputing*, vol. 72, no. 16-18, pp. 3818-3829, Oct. 2009. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231209001714)
 
+</details>
 
 - **Chinese Journal Papers**
 
