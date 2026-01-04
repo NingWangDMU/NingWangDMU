@@ -15,14 +15,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div align="center">
-  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 40%; max-width: 40%; min-width: 300px; height: auto;">
-</div>
 
----
 
 <div align="center">
   <h1><em>Welcome to CIMV</em></h1>
+</div>
+
+<div align="center">
+  <img src="./cimv_head.png" alt="CIMV Badge" style="width: 45%; max-width: 45%; min-width: 300px; height: auto;">
 </div>
 
 
