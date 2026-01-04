@@ -42,6 +42,7 @@ Our applications span autonomous vessel berthing, ocean monitoring, maritime sea
 - Embodied Intelligence for Marine Robotics
 - SaaS-Oriented Marine Vehicle Simulator
 
+<!--
 ---
 
 ### 📚 Featured Research Projects
@@ -65,10 +66,11 @@ MLOps platform for managing ML model lifecycle from development to production.
 - **Key Features**: Model versioning, automated testing, CI/CD pipeline
 - **Technologies**: TensorFlow, PyTorch, MLflow, Docker
 - **Paper**: ["Operationalizing Machine Learning: A Production-Scale Approach"](http://example.com/paper3)
+-->
 
 ---
 
-### 📖 Recent Publications & Resources
+### 📖 Featured Publications & Resources
 
 #### 📊 Publication Metrics
 
@@ -95,9 +97,10 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 *Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-03 18:57:36 UTC<!-- /LAST_UPDATE -->*
 
----
+#### 📄 Selected Publications
 
-- **Selected International Journal Papers**
+<details>
+<summary><strong>International Journal Papers</strong></summary>
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
 
@@ -298,8 +301,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 1. Ning Wang, Meng Joo Er, Xianyao Meng, "A fast and accurate online self-organizing scheme for parsimonious fuzzy neural networks," *Neurocomputing*, vol. 72, no. 16-18, pp. 3818-3829, Oct. 2009. **(Highly Cited Paper)** [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231209001714)
 
+</details>
 
-- **Selected Chinese Journal Papers**
+- **Chinese Journal Papers**
 
 1. 王宁, 贾薇, 吴浩峻, 欠驱动无人船路径跟踪: 一种有限时间正切漂角视线制导方法, 控制与决策, 2025, 40(1): 187-195. [Link](https://d.wanfangdata.com.cn/periodical/kzyjc202501022)
 
@@ -332,21 +336,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 1. 王宁, 王永, 余明裕, 四旋翼飞行器自适应动态面轨迹跟踪控制, 控制理论与应用, 2017, 34(9): 1185-1194. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIQa3psbHl5eTIwMTcwOTAwOBoIaGk1cjF4dWY%3D)
 
 
-
-
-
-#### Journal Papers
-
-| Year | Title | Venue | Link |
-|------|-------|-------|------|
-| 2024 | "Distributed System Optimization: A Survey" | IEEE Transactions on Software Engineering | [Read](http://example.com/paper1) |
-| 2024 | "Machine Learning in Cloud Computing: Challenges and Solutions" | ACM Computing Surveys | [Read](http://example.com/paper2) |
-| 2023 | "Real-time Analytics at Scale" | Proceedings of SIGMOD 2023 | [Read](http://example.com/paper3) |
-
-#### Conference Presentations
-- **ICML 2024**: "Scaling ML Training Across Distributed Clusters" - [Slides](http://example.com/slides1)
-- **SIGMOD 2024**: "Query Optimization Techniques for Modern Data Warehouses" - [Video](http://example.com/video1)
-- **OSDI 2024**: "Container Orchestration at Petabyte Scale" - [Paper](http://example.com/paper_osdi)
+*Note: More publications are available at [Google Scholar](https://scholar.google.com/citations?user=QH8d1kAAAAAJ&hl=en)*
 
 ---
 
