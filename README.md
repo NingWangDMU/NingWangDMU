@@ -30,7 +30,19 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
 
 ### 🙋 Principal Investigator
 
-<img src="./ning.png" alt="Ning Wang" align="right" style="width: 200px; max-width: 200px; min-width: 120px; height: auto; vertical-align: middle;">
+<table align="right">
+<tr>
+<th align="center">
+  <img src="./ning.png" alt="Ning Wang" style="width: 200px; max-width: 200px; min-width: 120px; height: auto;">
+</th>
+</tr>
+<tr>
+<td align="center">
+  <strong>Ning Wang（王宁）</strong>
+</td>
+</tr>
+</table>
+
 
 - **Position:** Professor, Director of Center for Intelligent Marine Vehicles
 - **Affiliation:** School of Marine Engineering, Dalian Maritime University, China
