@@ -28,12 +28,13 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
 
 ### 🙋 Principal Investigator
 
-**Ning Wang** (王宁)
+<div style="display: flex; align-items: flex-start; gap: 30px;">
+<div style="flex: 1;">
 
-- **Position**: Professor, Director of Center for Intelligent Marine Vehicles
-- **Affiliation**: School of Marine Engineering, Dalian Maritime University, China
-- **Research Areas**: Marine Robotics, Embodied Intelligence, Autonomous Systems
-- **Editorial Positions**: 
+- **Position:** Professor, Director of Center for Intelligent Marine Vehicles
+- **Affiliation:** School of Marine Engineering, Dalian Maritime University, China
+- **Research Areas:** Marine Robotics, Embodied Intelligence, Autonomous Systems
+- **Editorial Positions:** 
   - Associate Editor of *IEEE Transactions on Intelligent Transportation Systems*
   - Editorial Board Member of *Ocean Engineering*
   - Associate Editor of *Journal of Field Robotics*
@@ -45,7 +46,7 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
   - Associate Editor of *IET Electronics Letters*
   - Associate Editor of *Journal of Marine Science and Application*
   - Editorial Board Member of *Chinese Ship Research*
-- **Honors & Awards**: 
+- **Honors & Awards:** 
   - National Young Top-notch Talent
   - Liaoning Leading Talent
   - Liaoning Outstanding Young Scholar
@@ -57,8 +58,15 @@ The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research instit
   - Elsevier Highly Cited Researcher
   - Elsevier World’s Top 2% Scientists
   - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow
-- **Email**: [n.wang.dmu.cn@gmail.com](mailto:n.wang.dmu.cn@gmail.com)
-- **Google Scholar**: [Google Scholar Profile](https://scholar.google.com/citations?hl=en&tzom=-480&user=dsK8i4EAAAAJ)
+- **Email:** [n.wang.dmu.cn@gmail.com](mailto:n.wang.dmu.cn@gmail.com)
+- **Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?hl=en&tzom=-480&user=dsK8i4EAAAAJ)
+
+</div>
+<div style="flex: 0 0 200px; text-align: center;">
+  <img src="./ning.png" alt="Ning Wang" style="width: 180px; max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px;">
+  <div style="font-weight: bold; font-size: 16px;">**Ning Wang** (王宁)</div>
+</div>
+</div>
 
 <!-- *Brief introduction about the director's background, achievements, and research contributions...* -->
 
