@@ -1,24 +1,7 @@
-<!--
-## Hi there 👋
-
-**NingWangDMU/NingWangDMU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
 <div align="center">
   <h1><em>Welcome to CIMV</em></h1>
 </div>
-
 
 
 <div align="center">
@@ -33,16 +16,51 @@ Here are some ideas to get you started:
 </div> -->
 
 
-
 ---
 
-### 👨‍🎓 About Us
+### 🏫 About Us
 
 <!-- <img src="./cimv_badge.jpg" alt="CIMV Research" align="right" style="width: 25%; max-width: 25%; min-width: 150px; height: auto; border-radius: 8px; margin-left: 15px; margin-bottom: 10px; vertical-align: middle;"> -->
 
-
 The *Center for Intelligent Marine Vehicles (CIMV)* is a premier research institution advancing embodied intelligent marine robotics. We develop theoretical foundations and practical methodologies for autonomous navigation and resilient adaptation in complex maritime environments. Our multidisciplinary team combines expertise in robotics, control systems, machine learning, marine engineering, and ocean science. We research perception, learning, planning, multi-agent coordination, and adaptive control, addressing challenges including severe sea conditions, maritime traffic, unmodeled dynamics, and system uncertainties. Our applications span autonomous vessel berthing, ocean monitoring, maritime search and rescue, port security, and shipping safety. With **300+ publications** and **10+ provincial awards**, the CIMV demonstrates research excellence through field-proven technologies enabling reliable autonomous marine operations.
 
+---
+
+### 🙋 Principal Investigator
+
+**Ning Wang** (王宁)
+
+- **Position**: Professor, Director of Center for Intelligent Marine Vehicles
+- **Affiliation**: School of Marine Engineering, Dalian Maritime University, China
+- **Research Areas**: Marine Robotics, Embodied Intelligence, Autonomous Systems
+- **Editorial Positions**: 
+  - Associate Editor of *IEEE Transactions on Intelligent Transportation Systems*
+  - Editorial Board Member of *Ocean Engineering*
+  - Associate Editor of *Journal of Field Robotics*
+  - Associate Editor of *ISA Transactions*
+  - Associate Editor of *IEEE Systems Journal*
+  - Associate Editor of *IEEE Signal Processing Letters*
+  - Associate Editor of *International Journal of Robust and Nonlinear Control*
+  - Associate Editor of *International Journal of Fuzzy Systems*
+  - Associate Editor of *IET Electronics Letters*
+  - Associate Editor of *Journal of Marine Science and Application*
+  - Editorial Board Member of *Chinese Ship Research*
+- **Honors & Awards**: 
+  - National Young Top-notch Talent
+  - Liaoning Leading Talent
+  - Liaoning Outstanding Young Scholar
+  - MoT Leading Talent
+  - Liaoning Provincial Science and Technology Award
+  - Science and Technology Award of Chinese Navigation Society
+  - Science and Technology Award of China Ocean Engineering Consulting Association
+  - Clarivate Analytics Highly Cited Researcher
+  - Elsevier Highly Cited Researcher
+  - Elsevier World’s Top 2% Scientists
+  - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow
+- **Email**: [n.wang.dmu.cn@gmail.com](mailto:n.wang.dmu.cn@gmail.com)
+- **Google Scholar**: [Google Scholar Profile](https://scholar.google.com/citations?hl=en&tzom=-480&user=dsK8i4EAAAAJ)
+
+<!-- *Brief introduction about the director's background, achievements, and research contributions...* -->
 
 ---
 
@@ -81,7 +99,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ---
 
-### 📖 Featured Publications & Resources
+### 📚 Featured Publications & Resources
 
 #### 📊 Publication Metrics
 
@@ -97,10 +115,10 @@ MLOps platform for managing ML model lifecycle from development to production.
 *Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-01-04 07:36:15 UTC<!-- /LAST_UPDATE -->*
 
 
-#### 📄 Selected Publications
+#### 📜 Selected Publications
 
 <details>
-<summary><strong>International Journal Papers</strong></summary>
+<summary><strong>🌏International Journal Papers</strong></summary>
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
 
@@ -341,7 +359,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 ---
 
-### 👥 Lab Team
+<!-- ### 👥 Lab Team
 
 #### Current Members
 
@@ -356,9 +374,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 - Dr. [Alumni Name 1] - Now at [Tech Company], Specializing in [Research Area]
 - Dr. [Alumni Name 2] - Now Faculty at [University], Focus on [Research Area]
 
----
+--- -->
 
-### 🛠️ Tech Stack & Expertise
+<!-- ### 🛠️ Tech Stack & Expertise
 
 #### Programming Languages
 ![Python](https://img.shields.io/badge/Python-3.9+-3776ab?style=flat-square&logo=python)
@@ -375,9 +393,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 ![gRPC](https://img.shields.io/badge/gRPC-1.5+-244c5a?style=flat-square&logo=grpc)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-336791?style=flat-square&logo=postgresql)
 
----
+--- -->
 
-### 📊 Lab GitHub Statistics
+<!-- ### 📊 Lab GitHub Statistics
 
 <div align="center">
 
@@ -386,9 +404,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 </div>
 
----
+--- -->
 
-### 📮 Contact & Connect
+### 💌📮 Contact & Connect
 
 **Office Location:** Building [X], Room [YYY]  
 **Department:** Computer Science, [University Name]  
