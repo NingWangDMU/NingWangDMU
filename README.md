@@ -33,7 +33,7 @@ The [*Center for Intelligent Marine Vehicles (CIMV)*](https://cimv.dmu.edu.cn/) 
 <table align="right">
 <tr>
 <th align="center">
-  <img src="./ning.png" alt="Ning Wang" style="width: 180px; max-width: 180px; min-width: 120px; height: auto;">
+  <img src="./ning.png" alt="Ning Wang" style="width: 150px; max-width: 150px; min-width: 120px; height: auto;">
 </th>
 </tr>
 <tr>
@@ -49,7 +49,8 @@ The [*Center for Intelligent Marine Vehicles (CIMV)*](https://cimv.dmu.edu.cn/) 
 - **Research Areas:** Marine Robotics, Embodied Intelligence, Autonomous Systems
 - **Editorial Positions:**
   <details>
-  <summary>&nbsp;View Details</summary>  
+  <summary>&nbsp;View Details</summary>
+  
   - Associate Editor of *IEEE Transactions on Intelligent Transportation Systems*
   - Editorial Board Member of *Ocean Engineering*
   - Associate Editor of *Journal of Field Robotics*
@@ -60,11 +61,13 @@ The [*Center for Intelligent Marine Vehicles (CIMV)*](https://cimv.dmu.edu.cn/) 
   - Associate Editor of *International Journal of Fuzzy Systems*
   - Associate Editor of *IET Electronics Letters*
   - Associate Editor of *Journal of Marine Science and Application*
-  - Editorial Board Member of *Chinese Ship Research*  
+  - Editorial Board Member of *Chinese Ship Research*
+  
   </details>
 - **Honors & Awards:** 
   <details>
-  <summary>&nbsp;View Details</summary>  
+  <summary>&nbsp;View Details</summary>
+  
   - National Young Top-notch Talent
   - Liaoning Leading Talent
   - Liaoning Outstanding Young Scholar
@@ -75,7 +78,8 @@ The [*Center for Intelligent Marine Vehicles (CIMV)*](https://cimv.dmu.edu.cn/) 
   - Clarivate Analytics Highly Cited Researcher
   - Elsevier Highly Cited Researcher
   - Elsevier World’s Top 2% Scientists
-  - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow  
+  - IEEE Senior Member, IET Fellow, IMarEST Fellow, IIAV Fellow, ISCM Fellow
+  
   </details>
 - **Email:** [n.wang.dmu.cn@gmail.com](mailto:n.wang.dmu.cn@gmail.com)
 - **Website:** [Personal Homepage](https://cimv.dmu.edu.cn/)
@@ -142,8 +146,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 #### 📝&nbsp;&nbsp;Selected Publications
 
+- **International Journal Papers:**
 <details>
-<summary><strong>🌏 International Journal Papers</strong></summary>
+<summary>&nbsp;View Details</summary>
 
 1. Ning Wang, Yuan Feng, Lixin Tian, Yi Wei, "RSOS-Net: Real-time surface obstacle segmentation network for uncrewed waterborne vehicles," *IEEE Transactions on Intelligent Transportation Systems*, vol. 27, no. 1, pp. 1052-1065, Jan. 2026. [Link](https://ieeexplore.ieee.org/document/11267114)
 
@@ -346,8 +351,9 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 </details>
 
+- **Chinese Journal Papers**
 <details>
-<summary><strong>Chinese Journal Papers</strong></summary>
+<summary>&nbsp;View Details</summary>
 
 1. 王宁, 贾薇, 吴浩峻, 欠驱动无人船路径跟踪: 一种有限时间正切漂角视线制导方法, 控制与决策, 2025, 40(1): 187-195. [Link](https://d.wanfangdata.com.cn/periodical/kzyjc202501022)
 1. 王宁, 宋炳松, 高田宇, 考虑寿命衰减的燃料电池船舶自适应等效氢耗最小策略, 中国舰船研究, 2025, 20(4): 222-232. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIPemdqY3lqMjAyNTA0MDIzGgg0aXR3emk4OQ%3D%3D)
