@@ -494,13 +494,13 @@ For more details, visit our [Lab Website](https://cimv.dmu.edu.cn/) or contact u
 --- -->
 
 
-<div align="center">
+<!-- <div align="center">
 
 ⭐ ***Advancing Marine Robotics Through Embodied Intelligence*** ⭐
 
 <!-- *We believe in creating systems that matter. Our research impacts millions of users worldwide.* -->
 
-</div>
+<!-- </div> --> -->
 
 <!-- ---
 
@@ -512,10 +512,10 @@ All code repositories are licensed under the **MIT License** unless otherwise sp
 
 <div align="center">
 
-**Last Updated:** <img src="https://img.shields.io/github/last-commit/NingWangDMU/NingWangDMU?label=Last%20Updated&color=blue&style=flat-square" alt="Last Updated">  
-**Profile Views:** ![](https://komarev.com/ghpvc/?username=NingWangDMU&color=blue&style=flat-square)
+*Last Updated:* <!-- LAST_UPDATE -->2026-01-04 16:32:21 UTC<!-- /LAST_UPDATE -->  
+![](https://komarev.com/ghpvc/?username=NingWangDMU&color=blue&style=flat-square)
 
----
+⭐ ***Advancing Marine Robotics Through Embodied Intelligence*** ⭐
 
 *"The best way to predict the future is to invent it." — Alan Kay*
 
