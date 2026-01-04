@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 <div align="center">
-  <h2><em>Welcome to CIMV</em></h2>
+  <h1><em>Welcome to CIMV</em></h1>
 </div>
 
 
