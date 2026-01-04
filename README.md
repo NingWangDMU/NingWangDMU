@@ -21,6 +21,8 @@ Here are some ideas to get you started:
   <h1><em>Welcome to CIMV</em></h1>
 </div>
 
+<br>
+
 <div align="center">
   <img src="./cimv_head.png" alt="CIMV Badge" style="width: 420px; max-width: 420px; min-width: 300px; height: auto;">
 </div>
