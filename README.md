@@ -1,10 +1,7 @@
 
-
-
 <div align="center">
   <h1><em>Welcome to CIMV</em></h1>
 </div>
-
 
 <div align="center">
   <img src="./cimv_head.png" alt="CIMV Badge" style="width: 420px; max-width: 420px; min-width: 300px; height: auto;">
@@ -16,7 +13,6 @@
   <img src="https://img.shields.io/badge/Research-Marine%20Robotics-red?style=for-the-badge" alt="Research Badge">
   <img src="https://img.shields.io/badge/Location-Dalian%20China-green?style=for-the-badge" alt="Location Badge">
 </div> -->
-
 
 ---
 
@@ -381,7 +377,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
   - 王宁, 王永, 余明裕, 四旋翼飞行器自适应动态面轨迹跟踪控制, 控制理论与应用, 2017, 34(9): 1185-1194. [Link](https://d.wanfangdata.com.cn/periodical/CiBQZXJpb2RpY2FsQ0hJU29scjkyMDI1MTIyNDE1NDU1NRIQa3psbHl5eTIwMTcwOTAwOBoIaGk1cjF4dWY%3D)
 
-</details>
+  </details>
 
 *Note: More publications are available at [Google Scholar](https://scholar.google.com/citations?user=dsK8i4EAAAAJ&hl=en)*
 
@@ -434,7 +430,7 @@ MLOps platform for managing ML model lifecycle from development to production.
 
 --- -->
 
-### 📧 Contact & Connect
+<!-- ### 📧 Contact & Connect
 
 **Office Location:** Building [X], Room [YYY]  
 **Department:** Computer Science, [University Name]  
@@ -446,33 +442,32 @@ MLOps platform for managing ML model lifecycle from development to production.
 - 🐦 **Twitter/X**: [@YourHandle](https://twitter.com/YourHandle)
 - 📝 **Scholar**: [Google Scholar Profile](https://scholar.google.com)
 
----
+--- -->
 
 ### 🤝 Collaborations & Partnerships
 
 We are **actively seeking collaborations** on:
-- ✅ Distributed systems research
-- ✅ Machine learning systems optimization
-- ✅ Cloud computing infrastructure
-- ✅ Open-source projects
+- Marine Robotics Research & Development
+- Embodied Intelligence for Marine Robotics
+- End-to-End Learning-based Autonomous Navigation 
+- Digital Twin for Marine Systems
 
-**Interested in collaborating?** [Drop us an email](mailto:professor.name@university.edu) or open an [issue in our discussion board](https://github.com/your-username/discussions).
+**Interested in collaborating?** [Drop us an email](mailto:n.wang.dmu.cn@gmail.com) or open an [issue in our discussion board](https://github.com/NingWangDMU/discussions).
 
 ---
 
-### 📬 Join Our Lab
+### 📬 Join Us
 
-#### We're Hiring!
-**Current Openings:**
-- 🎓 PhD Positions (2024-2025)
+**We're Hiring!** Current Openings:
+- 🎓 PhD & Master Positions (2025-2026)
 - 👨‍💻 Postdoctoral Researchers
 - 🔧 Research Engineers & Interns
 
-For more details, visit our [Lab Opportunities Page](https://research-lab.university.edu/join)
+For more details, visit our [Lab Website](https://cimv.dmu.edu.cn/) or contact us via email.
 
 ---
 
-### 🔗 Important Resources
+<!-- ### 🔗 Important Resources
 
 #### Getting Started with Our Projects
 - [Contribution Guidelines](https://github.com/your-username/project-1/blob/main/CONTRIBUTING.md)
@@ -496,30 +491,29 @@ For more details, visit our [Lab Opportunities Page](https://research-lab.univer
 | **PhD Graduates** | 10+ |
 | **Industry Partnerships** | 8 |
 
----
+--- -->
 
-### 🌟 Highlights
 
 <div align="center">
 
-⭐ **"Advancing Computer Science Through Innovation"** ⭐
+⭐ ***Advancing Marine Robotics Through Embodied Intelligence*** ⭐
 
-*We believe in creating systems that matter. Our research impacts millions of users worldwide.*
+<!-- *We believe in creating systems that matter. Our research impacts millions of users worldwide.* -->
 
 </div>
 
----
+<!-- ---
 
 ### 📄 License
 
-All code repositories are licensed under the **MIT License** unless otherwise specified. See individual repository LICENSE files for details.
+All code repositories are licensed under the **MIT License** unless otherwise specified. See individual repository LICENSE files for details. -->
 
 ---
 
 <div align="center">
 
-**Last Updated:** January 2025  
-**Profile Views:** ![](https://komarev.com/ghpvc/?username=your-username&color=blue&style=flat-square)
+**Last Updated:** <img src="https://img.shields.io/github/last-commit/NingWangDMU/NingWangDMU?label=Last%20Updated&color=blue&style=flat-square" alt="Last Updated">  
+**Profile Views:** ![](https://komarev.com/ghpvc/?username=NingWangDMU&color=blue&style=flat-square)
 
 ---
 
