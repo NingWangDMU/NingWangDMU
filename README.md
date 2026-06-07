@@ -130,14 +130,14 @@ MLOps platform for managing ML model lifecycle from development to production.
 
   | Category | Count | Data Source | Last Updated |
   |----------|-------|-------------|--------------|
-  | **SCI-indexed Papers** | <!-- SCI_PAPERS_COUNT -->180<!-- /SCI_PAPERS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE --> |
-  | **JCR Q1 Papers** | <!-- JCR_Q1_COUNT -->160<!-- /JCR_Q1_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE --> |
-  | **IEEE Transactions** | <!-- IEEE_TRANS_COUNT -->80<!-- /IEEE_TRANS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE --> |
-  | **Total Publications** | <!-- TOTAL_PUBLICATIONS -->1000<!-- /TOTAL_PUBLICATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE --> |
-  | **Total Citations** | <!-- TOTAL_CITATIONS -->15000<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE --> |
-  | **H-index** | <!-- H_INDEX -->70<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE --> |
+  | **SCI-indexed Papers** | <!-- SCI_PAPERS_COUNT -->180<!-- /SCI_PAPERS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE --> |
+  | **JCR Q1 Papers** | <!-- JCR_Q1_COUNT -->160<!-- /JCR_Q1_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE --> |
+  | **IEEE Transactions** | <!-- IEEE_TRANS_COUNT -->80<!-- /IEEE_TRANS_COUNT --> | Web of Science | <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE --> |
+  | **Total Publications** | <!-- TOTAL_PUBLICATIONS -->1000<!-- /TOTAL_PUBLICATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE --> |
+  | **Total Citations** | <!-- TOTAL_CITATIONS -->15000<!-- /TOTAL_CITATIONS --> | Google Scholar | <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE --> |
+  | **H-index** | <!-- H_INDEX -->70<!-- /H_INDEX --> | Google Scholar | <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE --> |
 
-*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE -->*
+*Note: Metrics are automatically updated from external databases. Last update: <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE -->*
 
 
 #### 📝&nbsp;&nbsp;Selected Publications
@@ -507,7 +507,7 @@ All code repositories are licensed under the **MIT License** unless otherwise sp
 
 *"The best way to predict the future is to invent it." — Alan Kay*
 
-*Last Updated:* <!-- LAST_UPDATE -->2026-05-31 17:15:26 UTC<!-- /LAST_UPDATE -->  
+*Last Updated:* <!-- LAST_UPDATE -->2026-06-07 17:24:16 UTC<!-- /LAST_UPDATE -->  
 
 ![](https://komarev.com/ghpvc/?username=NingWangDMU&color=blue&style=flat-square)
 
